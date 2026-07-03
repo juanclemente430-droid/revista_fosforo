@@ -684,9 +684,9 @@ header .container:has(.nav_input:checked){
     border-top-style:solid;
     border-bottom-style:solid;
     border-color:#e2e6ee;
-        margin-left: 0;
+    margin-left: 0;
     margin-right: 0;
-    padding-left: 10px;
+    padding-left: 2px;
     padding-right: 10px;
     border-left-style: none; /* quita el borde izquierdo en móvil */
 
@@ -1201,67 +1201,66 @@ header .container:has(.nav_input:checked){
         inset: unset;
         display: inline-block;
     }
-}
-/*Archivos*/
-#apartados .Acercade{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-family: 'Times New Roman', Times, serif;
-}
 
-.archivos{
-    border: 1px;
-    border-top-style:solid;
-    border-bottom-style:solid;
-    border-left-style: solid ;
-    border-color:#e2e6ee;
-    margin-left: 50px;
-    padding-left: 25px;
-}
-.portadas_numeros{
-    float: left;
-    margin-right: 35px;
-    margin-top: 20px;
-    width: 15%;
-}
-#num{
-    color:#374151;
-}
-#num_p{
-    color: #1f2937;
-    margin-bottom: 20px;
-}
-.num_r{
-    margin-left: 0%;
-}
+    /*Archivos (version escritorio)*/
+    #apartados .Acercade{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
 
-#num_b{
-    display: block;
-    margin-left: auto;
-    margin-right: 20px;
-    clear: both; /* importante: lo saca del float y lo pone abajo */
-    margin-top: -10px;
-    margin-bottom: 5px;
-    background-color: #fff;
-}
-.num_n_a{
-    font-weight: bold;
-    color:rgb(45, 100, 172);
-    text-decoration: none;
-}
-.archivos a {
-    text-decoration: none;
-}
-.num_p_art{
-    color: #1f2937;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
-    line-height: 1.4;
-    text-align: justify;
-}
+    .archivos{
+        border: 1px;
+        border-top-style:solid;
+        border-bottom-style:solid;
+        border-left-style: solid ;
+        border-color:#e2e6ee;
+        margin-left: 50px;
+        padding-left: 25px;
+    }
+    .portadas_numeros{
+        float: left;
+        margin-right: 35px;
+        margin-top: 20px;
+        width: 15%;
+    }
+    #num{
+        color:#374151;
+    }
+    #num_p{
+        color: #1f2937;
+        margin-bottom: 20px;
+    }
+    .num_r{
+        margin-left: 0%;
+    }
 
-
+    #num_b{
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+        clear: both; /* importante: lo saca del float y lo pone abajo */
+        margin-top: -10px;
+        margin-bottom: 5px;
+        background-color: #fff;
+    }
+    .num_n_a{
+        font-weight: bold;
+        color:rgb(45, 100, 172);
+        text-decoration: none;
+    }
+    .archivos a {
+        text-decoration: none;
+    }
+    .num_p_art{
+        color: #1f2937;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1em;
+        line-height: 1.4;
+        text-align: justify;
+    }
+}

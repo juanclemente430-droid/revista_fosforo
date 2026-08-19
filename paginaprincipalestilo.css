@@ -59,6 +59,7 @@ p{
     padding-left: 55px;
     padding-right: 55px;
     padding-top: 20px;
+    position: relative; /* ← agregar esta línea */
 }
 .slide-content {
     display: flex;

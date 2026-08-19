@@ -74,7 +74,7 @@ p{
 
 
 .slide-2 {
-    background-image: url(Imagenes/actividades.png);
+    background-image: url(Imagenes/prm2.jpeg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ p{
 
 
 .slide-1 {
-    background-image: url(./Imagenes/Venezuela.jpeg);
+    background-image: url(./Imagenes/prm.jpeg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -1201,7 +1201,7 @@ header .container:has(.nav_input:checked){
 
     /* Quitamos el fondo directo en desktop */
     .slide-2 {
-        background-image: url(Imagenes/Inicio.png);
+        background-image: url(Imagenes/pr2.png);
         background-position: center center;
     }
 
@@ -1227,7 +1227,7 @@ header .container:has(.nav_input:checked){
 
     /* Quitamos el fondo directo en desktop */
     .slide-1 {
-        background-image: url(Imagenes/bandera_venezuela.png);
+        background-image: url(Imagenes/pr2.png);
         background-position: center center;
     }
 

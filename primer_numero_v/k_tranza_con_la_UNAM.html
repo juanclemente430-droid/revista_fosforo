@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../paginaprincipalestilo.css">
+    <title>Revista FOSFORO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+     <header>  
+        <div class="container">
+            <figure class="nav_figure">
+            <a href="../index.html" class="logo">
+                <img src="../Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
+            </a>
+            </figure>
+
+            <label class="nav_toggel">
+                <input type="checkbox" id="menu-input" class="nav_input">
+            </label>
+            <div class="iniciosesion">
+                <a href="{{ url_for('login') }}">
+                    <img src="../Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
+                </a>
+            </div>  
+        </div>
+        <ul class="nav_list">
+            <li class="nav_item">
+                <a href="../index.html" class="nav_link2">Inicio</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link1 dropdown-toggle">
+                    Acerca de la revista <span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="../Enfoque.html" class="dropdown-link">Convocatoria permanente</a></li>
+                    <li><a href="../Seccionesdelarevista.html" class="dropdown-link">Secciones de la revista</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="../Catalogo.html" class="nav_link2">Catalogo</a>
+            </li>
+            <li class="nav_item">
+                <a href="../galeria.html" class="nav_link2">Galeria de imagenes</a>
+            </li>
+            <li class="nav_item">
+                <a href="../Videos.html" class="nav_link2">Videos</a>
+            </li>
+            <li class="nav_item">
+                <a href="../Convocatorias.html" class="nav_link3">Convocatorias</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link3 dropdown-toggle">
+                    Publicar<span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="Bases.html" class="dropdown-link"> Bases</a></li>
+                </ul>
+                <ul class="dropdown">
+                    <li><a href="../Lineamientos.html" class="dropdown-link"> Lineamientos para el envio de colaboraciones</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="#" class="nav_link3">Donaciones</a>
+            </li>
+            <li class="nav_item redes-sociales-menu">
+                <a href="https://www.facebook.com/coaxolotl" target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/axolotl_mx_/" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/co_axolotl" target="_blank" class="social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+<section id="apartados">
+    <div class="content-wrapper">
+        <div class="main-content">
+            <div class="Acercade">
+            <H2>Archivos</H2>
+                <div class="archivos">
+                    <h2>K tranza con la UNAM</h2>
+                    <p style="color: #1f2937;">Odiseo Polakeño</p>
+                    <p class="num_p_art">
+1983.GUERRA FRÍA. El Sistema Satelital Sovietico detecta el lanzamientos de misiles, en 
+minutos un misil hace impacto, en minutos la vida se pulveriza ante la tiranía nuclear 
+yankee, ¿otro Nagasaki? ¿ordenar contraataque? Petrov al mando decide esperar y reportar 
+la falla del Sistema, ¿resultado? las computadoras confundieron reflejos solares con misiles, 
+Petrov decidió confiar más en su sentipensar que en una máquina, en un mundo que empezaría a 
+confiar más en lo digital. <br><br>
+
+2026. La UNAM lanza un boletín “provisionalmente, quedan suspendidos los trámites de entrega 
+documental e inscripciones para el ciclo escolar 2026-2027/1” ¿por k? Se detecta un 
+comportamiento atípico en el examen de admisión, la opinión pública señala a los aspirantes de 
+deshonestos. La empresa Territorium Life encargada de realizar el examen usa IA para detectar 
+el uso de IA en los aspirantes. Petrov que haría con tantan IA? <br> <br>
+
+Se confía más en un privado (Territorium Life), k en una Máxima Institución Pública (UNAM), se 
+confía más en lo individual, k en lo común, se confía más en lo virtual, k en las personas. 
+Resultado: UN TEJIDO SOCIAL EROSIONADO. <br> <br>
+
+Ante esta coyuntura corren varias corrientes de vómito, el vómito de la derecha que privatiza 
+y a la vez enarbola a la UNAM mientras culpa a los aspirantes, por otro lado está el vómito 
+propagandero de MORENA que ve a la UNAM como una simple trinchera de la derecha. Y ahora viene 
+el mío … <br> <br>
+
+El hecho ya esta, la UNAM decidió confiar en la empresa Territorium Life y pagarle 41 millones 
+de pesos, que confíar en sus académicos que se dedican a hacer investigaciones que nadie lee. 
+El resultado: se detecta comportamiento atípico; filtración de resultados, uso de IA de los 
+aspirantes, cachirules contestando exámenes y una opinión pública que reprende a su juventud y 
+no a la institución que decidió pagar y no hacer su deber Constitucional. <br> <br>
+
+Ante esto el HONORABLE Rector decide integrar una Comisión Técnica (CT) que dé solución a este 
+problemón, ¿quienes encabezan esta CT? Como presidente el Dr. Eduardo Bárzana García, el cual 
+fue integrante de la Junta de Gobierno, aquella cúpula de Doctores que eligen a Directores, 
+Rectores, integrantes del Patronato y demás cosas que dicta la Ley Orgánica - por cierto una 
+ley bastante vieja, pero bueno -, el Dr Edu fue miembro de la Junta del 2016 al 2021 bajo la 
+gestión del Ex-rector Graue (MÉDICO) y como Secretario Técnico Joaquín Narro Lobo, que no tengo 
+el placer de escribirlo como Doctor por que solo es Licenciado y su mérito es ser hijo del 
+Ex-rector José Ramón Narro Robles (MÉDICO). <br> <br>
+
+Ahora bien, vamos con una funcionaria que se quedó sin chamba, la Dr. Patricia Dávila quién era 
+la Secretaría General de la UNAM, la cual anteriormente fue Directora de la FES Iztacala del 
+2012 al 2020 pasando por los rectorados de Narro y Graue: MÉDICOS. <br> <br>
+
+Veamos cómo estos funcionarios desde Narro Robles hasta ahora se han dedicado a desprestigiar a 
+la juventud universitaria, desde el CEU hasta ahora. No olvidemos que el Abogado General de la 
+UNAM fue nombrado por el Ex-rector Graue y es este mismo Abogado el que impulsó el año pasado 
+una modificación al Art.15 del Reglamento del Tribunal Universitario, modificación que 
+provocaría la movilización de distintas facultades, entre ellas Polakas, las cuales lograron 
+que el Rector Lomelí eliminará dichas modificaciones que vulnerabilizaban la libre manifestación 
+dentro de la UNAM. <br> <br>
+
+Esta línea de control se ha reflejado en los CCH´s dondé recientemente hubo cambio de Dirección 
+General y con la cual se instalaron cámaras, torniquetes y detectores de metal en las entradas, 
+bajo la consigna de evitar otra tragedia como en el CCH Sur. <br> <br>
+
+
+Y hablando de CCH´s no olvidar el FUERA PORROS DE LA UNAM del 2018, movimiento nacido de la 
+violencia en dichos planteles, en especial énfasis en CCH Azcapotzalco. Movimiento que 
+convocaría a una movilización en Rectoría en septiembre del 2018, que tristemente terminó en 
+tragedia debido a la represión ejecutada por los GRUPOS PORRILES, donde el Ex-rector Graue solo 
+despidió al Secretario de Atención a la Comunidad Universitaria Javier de la Fuente Hernández 
+(MÉDICO) para después darle chamba como Coordinador de la Unidad de Extensión en San Miguel 
+de Allende, Guanajuato, y hoy es el nuevo Secretario General de la UNAM. <br> <br>
+
+Con este rollo expuesto busco mostrar una idea, la crisis de espacios dentro de la UNAM no se 
+soluciona incrementando la matrícula y su infraestructura.  La UNAM necesita DEMOCRACIA Y 
+TRANSPARENCIA, cambiar la LEY ORGÁNICA, por k vemos a una burocracia universitaria que se 
+rinde cuentas así misma y se rota en puestos de poder dentro de la Institución, creando sus 
+grupos de poder, construyendo su jaula de hierro diría Webber, k se masturba creyéndose eruditos 
+de la academia, auto-aplaudiendose felizmente, mientras hay un pueblo que trabaja para que sus 
+hijos tengan acceso a la Educación Superior, así como yo. Dónde está la universidad de 
+la Nación? ¿Dándoles la espalda y permitiendo el desprestigio a su juventud? ¿Qué diría Javier 
+Barros Sierra? <br> <br>
+
+Mi diagnóstico como politólogo: <b>El caos del examen es un síntoma de estos parásitos, la UNAM 
+necesita una urgente desparasitación.</b><br> <br>
+
+Para terminar les deseo las mejores bendiciones a mis compañerxs que realizarán el examen de 
+control, y que Efraín Juárez regrese a dirigir a nuestros PUMAS y ahora sí, ya por último, 
+ojalá estos médicos retomen el pensamiento de un gran MÉDICO, EL CHE. <br> <br>
+                    </p>
+                </div>
+            </div>
+            <div class="Acercade">
+                <Img></Img>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="Acercade">
+                    <button>Enviar un articulo</button>
+                    <!--<h3>Información</h3> 
+                    <a href="">Para lectores/as</a><br>
+                    <a href="">Para autores/as</a>-->
+                </div>
+
+                <div class="Acercade">
+                    <h2 id="NA">Números recientes</h2>
+                </div>
+                <div class="Acercade">
+                    <div class="Numerosrecientes">
+                        <img class="num_r" src="/Imagenes/01/portada_01.jpeg" alt="Portadas_de_revistas" width="70%">
+                            <p>Núm. 01 "Mundial 2026 ¿Un mundial del despojo?"</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</section>
+        <section id="contacto">
+            <div class="carta">
+                <div class="container">
+                    <h2>Sitios de interés</h2>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="container-redes-sociales">
+                </div>
+            </div>
+            <div class="carta">
+                <p>&copy;Revista Fosforo</p>
+            </div>
+</section> 
+    <script>
+        // Esperar a que termine la animación de las letras y luego mostrar el contenido
+        setTimeout(() => {
+            const loadingScreen = document.getElementById('loading-screen');
+            const mainContent = document.getElementById('main-content');
+            
+            // Ocultar pantalla de carga
+            loadingScreen.classList.add('fade-out');
+            
+            // Mostrar contenido principal
+            setTimeout(() => {
+                mainContent.classList.add('show');
+            }, 300);
+        }, 2500);
+
+        // Menú desplegable
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const menuItem = this.parentElement;
+                    const dropdown = menuItem.querySelector('.dropdown');
+                    
+                    // Toggle del dropdown
+                    menuItem.classList.toggle('active');
+                    dropdown.classList.toggle('active');
+                });
+            });
+
+            // Cerrar dropdown al hacer clic fuera
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.nav_item.has-dropdown')) {
+                    document.querySelectorAll('.nav_item.has-dropdown.active').forEach(item => {
+                        item.classList.remove('active');
+                        item.querySelector('.dropdown').classList.remove('active');
+                    });
+                }
+            });
+        });
+    </script>   
+</body>
+</html>

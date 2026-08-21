@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../paginaprincipalestilo.css">
+    <title>Revista FOSFORO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+     <header>  
+        <div class="container">
+            <figure class="nav_figure">
+            <a href="../index.html" class="logo">
+                <img src="../Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
+            </a>
+            </figure>
+
+            <label class="nav_toggel">
+                <input type="checkbox" id="menu-input" class="nav_input">
+            </label>
+            <div class="iniciosesion">
+                <a href="{{ url_for('login') }}">
+                    <img src="../Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
+                </a>
+            </div>  
+        </div>
+        <ul class="nav_list">
+            <li class="nav_item">
+                <a href="../index.html" class="nav_link2">Inicio</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link1 dropdown-toggle">
+                    Acerca de la revista <span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="../Enfoque.html" class="dropdown-link">Convocatoria permanente</a></li>
+                    <li><a href="../Seccionesdelarevista.html" class="dropdown-link">Secciones de la revista</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="../Catalogo.html" class="nav_link2">Catalogo</a>
+            </li>
+            <li class="nav_item">
+                <a href="../galeria.html" class="nav_link2">Galeria de imagenes</a>
+            </li>
+            <li class="nav_item">
+                <a href="../Videos.html" class="nav_link2">Videos</a>
+            </li>
+            <li class="nav_item">
+                <a href="../Convocatorias.html" class="nav_link3">Convocatorias</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link3 dropdown-toggle">
+                    Publicar<span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="Bases.html" class="dropdown-link"> Bases</a></li>
+                </ul>
+                <ul class="dropdown">
+                    <li><a href="../Lineamientos.html" class="dropdown-link"> Lineamientos para el envio de colaboraciones</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="#" class="nav_link3">Donaciones</a>
+            </li>
+            <li class="nav_item redes-sociales-menu">
+                <a href="https://www.facebook.com/coaxolotl" target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/axolotl_mx_/" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/co_axolotl" target="_blank" class="social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+<section id="apartados">
+    <div class="content-wrapper">
+        <div class="main-content">
+            <div class="Acercade">
+            <H2>Archivos</H2>
+                <div class="archivos">
+                    <h2>Consignas CCH VALLEJO</h2>
+                    <p style="color: #1f2937;">Colectivo Difusión Casanova</p>
+                    <p class="num_p_art">
+    <b>Guerrillas</b>
+    <br><br>
+    <span class="verso">Corren las guerrillas</span>
+    <span class="verso">corren las guerrillas</span>
+    <br>
+    <span class="verso">Luchan los obreros</span>
+    <span class="verso">Luchan los obreros</span>
+    <br>
+    <span class="verso">Luchan los estudiantes</span>
+    <span class="verso">luchan los estudiantes</span>
+    <br>
+    <span class="verso">Lucharan sin miedo</span>
+    <span class="verso">Lucharan sin miedo</span>
+    <br>
+    <span class="verso">Arriba, arriba el CCH sin miedo</span>
+    <br><br>
+
+    <b>Rectoría</b>
+    <br><br>
+    <span class="verso">Quiero quemar rectoría</span>
+    <span class="verso">quiero quemar rectoría</span>
+    <br>
+    <span class="verso">Decirle huevos a María García</span>
+    <span class="verso">Decirle huevos a María Garcia</span>
+    <br>
+    <span class="verso">Sin Jurídico ni dirección</span>
+    <span class="verso">Sin Jurídico ni dirección</span>
+    <br>
+    <span class="verso">Libertad y mucho amor</span>
+    <span class="verso">Libertad y mucho amor</span>
+    <br>
+    <span class="verso">Diganles que huevos</span>
+    <span class="verso">¡¡Huevos!!</span>
+    <span class="verso">Diganles que huevos</span>
+    <span class="verso">¡¡Huevos!!</span>
+    <br>
+    <span class="verso">¿Qué les vamos a decir? HUEVOS</span>
+    <br><br>
+
+    <b>Van a volver</b>
+    <br><br>
+    <span class="verso">Van a volver</span>
+    <span class="verso">Van a volver</span>
+    <br>
+    <span class="verso">Las balas que disparaste van a volver</span>
+    <span class="verso">La sangre que derramaste la pagaras</span>
+    <br>
+    <span class="verso">Los estudiantes que asesinaste no morirán</span>
+    <span class="verso">¡NO MORIRAN!</span>
+    <br><br>
+
+    <b>La Burguesía</b>
+    <br><br>
+    <span class="verso">Únete pueblo</span>
+    <span class="verso">Hoy es tú día</span>
+    <span class="verso">Dale en la</span>
+    <span class="verso">madre a la burguesía</span>
+    <span class="verso">Chinga de noche</span>
+    <span class="verso">Chinga de día</span>
+    <span class="verso">¡Ah como chinga la burguesía!</span>
+    <br><br>
+
+    <b>Educación Gratuita</b>
+    <br><br>
+    <span class="verso">Educación primero</span>
+    <span class="verso">al hijo del obrero</span>
+    <br>
+    <span class="verso">Educación despues</span>
+    <span class="verso">al hijo del burgués</span>
+    <br>
+    <span class="verso">Educación privada</span>
+    <br>
+    <span class="verso">Que se vaya a la chingada</span>
+    <br>
+    <span class="verso">Educación Gratuita</span>
+    <br>
+    <span class="verso">Lo que el pueblo necesita</span>
+    <br><br>
+
+    <b>Alerta</b>
+    <br><br>
+    <span class="verso">¡Alerta! ¡Alerta!</span>
+    <span class="verso">Alerta,alerta, alerta al que camina</span>
+    <br>
+    <span class="verso">La lucha estudiantil/feminista por América Latina</span>
+    <br>
+    <span class="verso">¿Por qué? ¿Por qué nos asesinan?</span>
+    <br>
+    <span class="verso">Si somos la esperanza de América Latina.</span>
+    <br>
+    <span class="verso">Y también, y tiemblen los fascistas/machistas/sionistas</span>
+    <span class="verso">Que América Latina será toda anarquista/feminista/SOCIALISTA</span>
+    <br><br>
+
+    <b>Contra la guerra</b>
+    <br><br>
+    <span class="verso">¡Estudiantes contra la guerra!</span>
+    <br>
+    <span class="verso">¡Estudiantes contra el capital!</span>
+    <br>
+    <span class="verso">¡Estudiantes contra el fascismo/sionismo!</span>
+    <br>
+    <span class="verso">¡Y el terrorismo neoliberal!</span>
+    <br><br>
+
+    <b>Lucha Lucha Lucha</b>
+    <br><br>
+    <span class="verso">Porque el color de la sangre jamás se olvida</span>
+    <span class="verso">Los masacrados serán vengados</span>
+    <span class="verso">Vestidos de verde olivo POLÍTICAMENTE VIVOS</span>
+    <span class="verso">¡NO!</span>
+    <span class="verso">NO HAS MUERTO</span>
+    <span class="verso">¡NO!</span>
+    <span class="verso">NO HAS MUERTO CAMARADA</span>
+    <span class="verso">TU MUERTE, TU MUERTE</span>
+    <span class="verso">¡TU MUERTE SERÁ VENGADA!</span>
+    <span class="verso">Y quien la vengara? El pueblo organizado</span>
+    <span class="verso">Y como? ¡LUCHANDO!</span>
+    <span class="verso">Entonces ¡LUCHA,LUCHA,NO DEJES DE LUCHAR POR UN GOBIERNO OBRERO CAMPESINO O POPULAR</span>
+    <br><br>
+
+    <b>Somos estudiantes</b>
+    <br><br>
+    <span class="verso">Porque somos estudiantes ¡sí señor!</span>
+    <span class="verso">estudiantes bien conscientes ¡sí señor!</span>
+    <span class="verso">apoyamos al obrero ¡sí señor!</span>
+    <span class="verso">y también al campesino ¡sí señor!</span>
+    <span class="verso">y no somos guerrilleros ¡sí señor!</span>
+    <span class="verso">pero pronto lo seremos ¡sí señor!</span>
+    <span class="verso">porque somos reprimidos ¡sí señor!</span>
+    <span class="verso">y también explotados ¡sí señor!</span>
+    <span class="verso">tumbaremos rectoría ¡sí señor!</span>
+    <span class="verso">rectoría por corrupta ¡sí señor!</span>
+    <span class="verso">ante nadie nos abrimos ¡sí señor!</span>
+    <span class="verso">ni a la puta autoridad ¡sí señor!</span>
+    <span class="verso">como dijo el comandante ¡sí señor!</span>
+    <span class="verso">comandante Che Guevara ¡sí señor!</span>
+    <span class="verso">y también Genaro Vázquez ¡sí señor!</span>
+    <span class="verso">junto con Lucio Cabañas ¡sí señor!</span>
+    <span class="verso">Y también lo dijo Marcos ¡sí señor!</span>
+    <span class="verso">y también las comandantas ¡sí señor!</span>
+    <span class="verso">hasta la victoria siempre ¡sí señor! x3</span>
+</p>
+                </div>
+            </div>
+            <div class="Acercade">
+                <Img></Img>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="Acercade">
+                    <button>Enviar un articulo</button>
+                    <!--<h3>Información</h3> 
+                    <a href="">Para lectores/as</a><br>
+                    <a href="">Para autores/as</a>-->
+                </div>
+
+                <div class="Acercade">
+                    <h2 id="NA">Números recientes</h2>
+                </div>
+                <div class="Acercade">
+                    <div class="Numerosrecientes">
+                        <img class="num_r" src="/Imagenes/01/portada_01.jpeg" alt="Portadas_de_revistas" width="70%">
+                            <p>Núm. 01 "Mundial 2026 ¿Un mundial del despojo?"</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</section>
+        <section id="contacto">
+            <div class="carta">
+                <div class="container">
+                    <h2>Sitios de interés</h2>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="container-redes-sociales">
+                </div>
+            </div>
+            <div class="carta">
+                <p>&copy;Revista Fosforo</p>
+            </div>
+</section> 
+    <script>
+        // Esperar a que termine la animación de las letras y luego mostrar el contenido
+        setTimeout(() => {
+            const loadingScreen = document.getElementById('loading-screen');
+            const mainContent = document.getElementById('main-content');
+            
+            // Ocultar pantalla de carga
+            loadingScreen.classList.add('fade-out');
+            
+            // Mostrar contenido principal
+            setTimeout(() => {
+                mainContent.classList.add('show');
+            }, 300);
+        }, 2500);
+
+        // Menú desplegable
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const menuItem = this.parentElement;
+                    const dropdown = menuItem.querySelector('.dropdown');
+                    
+                    // Toggle del dropdown
+                    menuItem.classList.toggle('active');
+                    dropdown.classList.toggle('active');
+                });
+            });
+
+            // Cerrar dropdown al hacer clic fuera
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.nav_item.has-dropdown')) {
+                    document.querySelectorAll('.nav_item.has-dropdown.active').forEach(item => {
+                        item.classList.remove('active');
+                        item.querySelector('.dropdown').classList.remove('active');
+                    });
+                }
+            });
+        });
+    </script>   
+</body>
+</html>

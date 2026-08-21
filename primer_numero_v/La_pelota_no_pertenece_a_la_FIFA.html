@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../paginaprincipalestilo.css">
+    <title>Revista FOSFORO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+     <header>  
+        <div class="container">
+            <figure class="nav_figure">
+            <a href="../index.html" class="logo">
+                <img src="../Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
+            </a>
+            </figure>
+
+            <label class="nav_toggel">
+                <input type="checkbox" id="menu-input" class="nav_input">
+            </label>
+            <div class="iniciosesion">
+                <a href="{{ url_for('login') }}">
+                    <img src="../Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
+                </a>
+            </div>  
+        </div>
+        <ul class="nav_list">
+            <li class="nav_item">
+                <a href="../index.html" class="nav_link2">Inicio</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link1 dropdown-toggle">
+                    Acerca de la revista <span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="../Enfoque.html" class="dropdown-link">Convocatoria permanente</a></li>
+                    <li><a href="../Seccionesdelarevista.html" class="dropdown-link">Secciones de la revista</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="../Catalogo.html" class="nav_link2">Catalogo</a>
+            </li>
+            <li class="nav_item">
+                <a href="../galeria.html" class="nav_link2">Galeria de imagenes</a>
+            </li>
+            <li class="nav_item">
+                <a href="../Videos.html" class="nav_link2">Videos</a>
+            </li>
+            <li class="nav_item">
+                <a href="../Convocatorias.html" class="nav_link3">Convocatorias</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link3 dropdown-toggle">
+                    Publicar<span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="Bases.html" class="dropdown-link"> Bases</a></li>
+                </ul>
+                <ul class="dropdown">
+                    <li><a href="../Lineamientos.html" class="dropdown-link"> Lineamientos para el envio de colaboraciones</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="#" class="nav_link3">Donaciones</a>
+            </li>
+            <li class="nav_item redes-sociales-menu">
+                <a href="https://www.facebook.com/coaxolotl" target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/axolotl_mx_/" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/co_axolotl" target="_blank" class="social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+<section id="apartados">
+    <div class="content-wrapper">
+        <div class="main-content">
+            <div class="Acercade">
+            <H2>Archivos</H2>
+                <div class="archivos">
+                    <h2>La pelota no pertenece a la FIFA</h2>
+                    <h4>Notas para re- existir y jugar en comunalidad</h4>
+                    <p style="color: #1f2937;">Jonathan Omar Bucio Rivera</p>
+                    <p class="num_p_art">
+        Este texto no nace en la necesidad de denunciar algo, sino desde la posibilidad de
+         dialogar con camaradas que siguen repensando desde la crisis actual a donde podemos 
+         avanzar y sobrevivir adelantando la supervivencia de la humanidad y como la alteridad 
+         puede ser una posibilidad pero para ello tenemos que ir dialogando en común unión 
+         desde nuestros propios sentipensares. <br>
+                    </p>
+                <h3>I. El Mundial del despojo</h3>
+                <p class="num_p_art">
+                    Cada cuatro años ocurre lo mismo: el mundo entero detiene su respiración d
+                    urante noventa minutos y la vuelve a soltar convertida en grito, en abrazo, 
+                    en llanto colectivo. También cada cuatro años se repite la misma operación 
+                    silenciosa: territorios desalojados para construir estadios que nadie 
+                    volverá a llenar, ciudades endeudadas por décadas para sostener un mes de 
+                    fiesta televisada, trabajadores migrantes muertos bajo el sol para que la 
+                    cancha luzca perfecta a cuadro. <br> <br>
+
+                Pero el despojo del Mundial no es solamente territorial. Es, sobre todo, un 
+                dispositivo. Es un dispositivo de producción de subjetividades: nos enseña a 
+                desear, a consumir, a identificarnos. Es un negocio financiero que mueve más 
+                dinero que el producto interno de países enteros. Es geopolítica disfrazada de 
+                deporte. Es industria turística que expulsa a quienes no pueden pagar la ciudad 
+                que habitan, más todos los elementos que esto conlleva, desde el despojo de 
+                territorio hasta violentar derechos y garantías de los pueblos. Es vigilancia 
+                tecnológica ensayada a escala masiva. Es nacionalismo reeditado cada cuatro años 
+                bajo el pretexto del orgullo. Es, en suma, producción masiva de mercancías con 
+                forma de balón, playera, taza, llavero. <br> <br>
+
+                Pero también —y aquí está la contradicción que no se puede resolver con una 
+                sola palabra— es el momento en que millones de personas abrazan a desconocidos, 
+                lloran, cantan, hacen comunidad, recuerdan a sus muertos, suspenden durante 
+                noventa minutos las jerarquías cotidianas. Esa contradicción no se disuelve 
+                señalando solamente el negocio. Ya que existen elementos ancestrales que aún 
+                perviven en esa emoción del juego. Tampoco se disuelve celebrando solamente la 
+                fiesta. Hay que sostenerla, incómoda, para pensar con seriedad. <br><br>
+
+                Hablar de despojo, entonces, no es solamente hablar de estadios ni de contratos. 
+                Es preguntarnos quién tiene la autoridad para decidir dónde empieza la historia 
+                de un juego, y qué se pierde cuando aceptamos esa autoridad sin discutirla y 
+                cuestionarla. <br> 
+                </p>
+
+                <h3>II. Cuando la descolonización también puede colonizar</h3>
+
+                 <p class="num_p_art">
+
+                    Hay una advertencia incómoda pero necesaria que circula entre quienes 
+                    piensan la descolonización desde Abya Yala: buena parte de lo que se 
+                    presenta como pensamiento descolonizador sigue atrapado en las categorías 
+                    que dice combatir. Cuando reducimos la cosmovisión de los pueblos 
+                    originarios a conceptos importados de la filosofía europea —incluso con 
+                    la mejor intención emancipadora—, terminamos haciendo con el pensamiento 
+                    indígena lo mismo que hizo la colonia: traducirlo, ordenarlo, hacerlo caber
+                    en un molde que no es el suyo. <br><br>
+                    
+                    No conviene caricaturizar este argumento ni descartarlo como un exceso 
+                    purista. Su aporte es señalar un riesgo real: que la izquierda, al querer 
+                    liberar a los pueblos originarios, termine recolonizando sus saberes bajo un 
+                    lenguaje que se cree neutral y no lo es. Esta advertencia nos obliga a
+                     preguntarnos si, al hablar del fútbol desde la teoría crítica occidental, 
+                     no estaremos cometiendo el mismo desliz que denunciamos. <br>
+                 </p>
+
+                 <h3>III. Los rituales populares como resistencia</h3>
+                 <p class="num_p_art">
+
+                    Frente a esa alerta, hay otra tradición de pensamiento latinoamericano —
+                    heredera en buena medida de Rodolfo Kusch— que ofrece un contrapeso 
+                    necesario. Muestra que incluso dentro de instituciones profundamente 
+                    capitalistas sobreviven prácticas rituales que el mercado no ha logrado 
+                    absorber del todo. La fiesta popular, la murga, la comparsa, la cancha de 
+                    barrio: ahí persiste una forma de estar en comunidad, de suspender 
+                    temporalmente la lógica individualista, que ninguna transnacional ha 
+                    podido cooptar y comprar por completo. <br> <br>
+
+                    Desde esta mirada, el fútbol —incluso el fútbol mundializado— no es 
+                    únicamente mercancía. Es también el momento en que millones de desconocidos 
+                    se abrazan en una calle, cantan lo mismo al mismo tiempo, recuerdan a sus 
+                    muertos con una playera puesta, sienten que pertenecen a algo más grande 
+                    que ellos mismos. Eso no lo inventó la FIFA. Eso lo hace la gente a pesar 
+                    de la FIFA. <br> 
+                    </p>
+                    
+                    <h3>IV. Lo que ambas intuiciones dejan abierto</h3>
+                    <p class="num_p_art">
+
+                        Leídas con cuidado, estas dos tradiciones no se contradicen tanto 
+                        como parece a primera vista. Una plantea un problema epistemológico: 
+                        la descolonización fracasa cuando seguimos pensando con categorías 
+                        ajenas. La otra plantea un problema político-cultural: incluso dentro 
+                        del capitalismo sobreviven formas rituales no absorbidas del todo. 
+                        El error sería elegir una para descartar la otra, aquí se trata de que 
+                        podamos hablar desde estas dos miradas para repensar y re- existir 
+                        desde lo ritual. <br> <br>
+
+                        Por eso, frente a la pregunta obvia —¿el fútbol es colonial o 
+                        descolonial?—, conviene resistir la tentación de responderla 
+                        directamente. Es la pregunta equivocada, porque exige una respuesta
+                         binaria a un fenómeno que no lo es, la respuesta debe de ser 
+                         multifactorial. La pregunta que sí vale la pena hacerse es otra: 
+                         ¿qué prácticas comunales logran sobrevivir, hoy, dentro de una
+                          institución tan colonial y depredadora como la FIFA? <br> <br>
+
+                        Ninguna de las dos tradiciones responde, al menos no del todo, qué 
+                        ocurre cuando una práctica ancestral ya fue capturada por un dispositivo 
+                        capitalista global como el Mundial. Ni todo está colonizado sin 
+                        remedio, ni toda práctica popular es automáticamente descolonial por 
+                        el simple hecho de ser popular. Lo decisivo no es la etiqueta que le 
+                        pongamos al fenómeno, sino la práctica comunal concreta que ahí se 
+                        recrea o se extingue. <br><br>
+
+                        Aquí es donde la comunalidad —entendida no como discurso sino como 
+                        práctica viva, tal como la trabajaron Floriberto Díaz y Jaime Martínez 
+                        Luna en Oaxaca— puede aportar algo que ninguna de las dos posturas 
+                        anteriores desarrolla del todo: la pregunta no es si el fútbol es 
+                        colonial o descolonial en abstracto, sino qué prácticas comunales 
+                        logran sobrevivir, hoy, dentro de una institución tan colonial y 
+                        depredadora como la FIFA. <br> 
+                    </p>
+
+                    <h3>V. Del juego de pelota al Mundial FIFA</h3>
+                    <p class="num_p_art">
+
+                        Y para responder esa pregunta conviene ir mucho más atrás de Inglaterra. 
+                        Casi todos los análisis críticos sobre el fútbol comienzan diciendo que 
+                        el juego nació ahí, en el siglo XIX. Pero aceptar ese punto de partida 
+                        ya es aceptar, sin darnos cuenta, una narrativa colonial que borra todo 
+                        lo anterior. <br> <br>
+                    En Abya Yala existieron —y en algunos lugares siguen existiendo— múltiples 
+                    juegos de pelota, cada uno con sentidos propios que no conviene aplanar en 
+                    un solo bloque homogéneo. El juego de pelota nacido en mesoamérica, hace 
+                    referencia a los diferentes grupos de la región tales como; maya, zapoteca,
+                     nahua y  tarasca por mencionar algunos de los tantos que son de esta
+                      región, ligado al inframundo y al ciclo del maíz. El de los nahuas, el 
+                      ullamaliztli, donde la cancha misma —el tlachtli— era una representación 
+                      del cosmos. El de los zapotecos y los mixtecos en Oaxaca, con sus 
+                      propias variantes rituales todavía practicadas en algunas comunidades.
+                       El de los purépechas, con el uraskuecha y la pelota de fuego. El de 
+                       los taínos en el Caribe, el batey, que daba nombre también al espacio 
+                       comunitario donde se jugaba. En ninguno de estos casos la pelota era un 
+                       objeto de consumo: era vínculo, era equilibrio entre fuerzas opuestas, 
+                       era una manera de leer el cosmos y de sostener el orden del mundo. <br> <br>
+
+                    El Mundial, entonces, no es el origen de este juego. Es la apropiación 
+                    cultural y capitalista de una experiencia humana mucho más antigua, que 
+                    otras civilizaciones ya habían practicado —y pensado— con una profundidad 
+                    que la FIFA jamás podría patentar y recrear. <br>  
+                    </p>
+
+                    <h3>VI. La pelota que resiste</h3>
+                    <p class="num_p_art">
+                        Se ha dicho, con razón, que el balón no merecía ser tratado como una 
+                        mercancía cualquiera. Pero conviene preguntarse: ¿quién fue, entonces,
+                         quien terminó ensuciándolo? <br> <br>
+
+                        No fueron los niños que juegan descalzos en un llano. No fueron los 
+                        barrios que arman su propio torneo con una portería hecha de piedras. 
+                        No fueron los pueblos que llevan siglos jugando su propia versión del 
+                        juego. La ensuciaron la FIFA, los patrocinadores, las casas de apuestas, 
+                        el marketing que convierte cada gesto espontáneo en producto, la 
+                        televisión que decide qué emociones vale la pena transmitir y cuáles no, 
+                        los megaproyectos urbanos y la especulación inmobiliaria que levanta 
+                        estadios sobre territorios despojados. <br> <br>
+
+                        La pelota sigue siendo, en el fondo, la misma. Lo que cambió fue el 
+                        sistema que se apropió de ella. <br> 
+                    </p>
+                    <h3>Conclusión: una pregunta de reflexión, también para la izquierda</h3>
+                    <p class="num_p_art">
+
+                        Sería fácil escribir un texto más de denuncia contra la FIFA, el 
+                        imperialismo o los megaproyectos del Mundial. Ya existen muchos, y 
+                        seguramente son necesarios. Pero quizá lo más honesto, si este texto 
+                        se piensa desde una postura de izquierda, sea también interpelarnos 
+                        a nosotros mismos. <br> <br>
+
+                        La advertencia sobre el riesgo de recolonizar cuando traducimos los 
+                        pensamientos originarios únicamente a categorías europeas sigue vigente. 
+                        El recordatorio de que en las prácticas populares persisten formas de 
+                        ritualidad y comunidad que no se dejan reducir del todo a la lógica del 
+                        mercado, también. Ambas intuiciones son necesarias, pero insuficientes 
+                        si no incorporamos una noción central: la comunalidad como práctica
+                         viva, que no se conforma con reivindicar filosofías ancestrales ni 
+                         con celebrar resistencias populares en abstracto, sino que pregunta 
+                         cómo se recrean hoy esas formas de vida en medio de un dispositivo 
+                         tan colonial como un Mundial de fútbol. <br> <br>
+
+                         El problema no es que el capitalismo haya inventado el fútbol. El 
+                         problema es que logró convencernos de que él era su origen. Mientras 
+                         discutimos quién levantará la copa, olvidamos que mucho antes de que 
+                         existiera la FIFA ya había pueblos que sabían que jugar también era 
+                         una forma de habitar el mundo. Descolonizar el juego no significa 
+                         negarlo ni purificarlo: significa recordar, cada vez que la pelota 
+                         rueda, a quién le pertenece realmente y ahí es donde la esperanza 
+                         sigue siendo esa luz que tanto necesitamos. <br><br>
+
+                         Con mucho cariño esta carta es para el mundo pero en especial para 
+                         dos camaradas y colegas… abrazos para el futuro porque los 
+                         necesitaremos y no olvidemos que para sobrevivir el futuro debe de 
+                         ser comunal. 
+                    </p>
+                </div>
+            </div>
+            <div class="Acercade">
+                <Img></Img>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="Acercade">
+                    <button>Enviar un articulo</button>
+                    <!--<h3>Información</h3> 
+                    <a href="">Para lectores/as</a><br>
+                    <a href="">Para autores/as</a>-->
+                </div>
+
+                <div class="Acercade">
+                    <h2 id="NA">Números recientes</h2>
+                </div>
+                <div class="Acercade">
+                    <div class="Numerosrecientes">
+                        <img class="num_r" src="/Imagenes/01/portada_01.jpeg" alt="Portadas_de_revistas" width="70%">
+                            <p>Núm. 01 "Mundial 2026 ¿Un mundial del despojo?"</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</section>
+        <section id="contacto">
+            <div class="carta">
+                <div class="container">
+                    <h2>Sitios de interés</h2>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="container-redes-sociales">
+                </div>
+            </div>
+            <div class="carta">
+                <p>&copy;Revista Fosforo</p>
+            </div>
+</section> 
+    <script>
+        // Esperar a que termine la animación de las letras y luego mostrar el contenido
+        setTimeout(() => {
+            const loadingScreen = document.getElementById('loading-screen');
+            const mainContent = document.getElementById('main-content');
+            
+            // Ocultar pantalla de carga
+            loadingScreen.classList.add('fade-out');
+            
+            // Mostrar contenido principal
+            setTimeout(() => {
+                mainContent.classList.add('show');
+            }, 300);
+        }, 2500);
+
+        // Menú desplegable
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const menuItem = this.parentElement;
+                    const dropdown = menuItem.querySelector('.dropdown');
+                    
+                    // Toggle del dropdown
+                    menuItem.classList.toggle('active');
+                    dropdown.classList.toggle('active');
+                });
+            });
+
+            // Cerrar dropdown al hacer clic fuera
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.nav_item.has-dropdown')) {
+                    document.querySelectorAll('.nav_item.has-dropdown.active').forEach(item => {
+                        item.classList.remove('active');
+                        item.querySelector('.dropdown').classList.remove('active');
+                    });
+                }
+            });
+        });
+    </script>   
+</body>
+</html>

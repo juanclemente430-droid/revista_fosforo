@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="paginaprincipalestilo.css">
+    <link rel="stylesheet" href="../paginaprincipalestilo.css">
     <title>Revista FOSFORO</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -11,8 +11,8 @@
      <header>  
         <div class="container">
             <figure class="nav_figure">
-            <a href="index.html" class="logo">
-                <img src="Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
+            <a href="../index.html" class="logo">
+                <img src="../Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
             </a>
             </figure>
 
@@ -21,34 +21,34 @@
             </label>
             <div class="iniciosesion">
                 <a href="{{ url_for('login') }}">
-                    <img src="Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
+                    <img src="../Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
                 </a>
             </div>  
         </div>
         <ul class="nav_list">
             <li class="nav_item">
-                <a href="index.html" class="nav_link2">Inicio</a>
+                <a href="../index.html" class="nav_link2">Inicio</a>
             </li>
             <li class="nav_item has-dropdown">
                 <a href="#" class="nav_link1 dropdown-toggle">
                     Acerca de la revista <span class="arrow">▼</span>
                 </a>
                 <ul class="dropdown">
-                    <li><a href="Enfoque.html" class="dropdown-link">Convocatoria permanente</a></li>
-                    <li><a href="Seccionesdelarevista.html" class="dropdown-link">Secciones de la revista</a></li>
+                    <li><a href="../Enfoque.html" class="dropdown-link">Convocatoria permanente</a></li>
+                    <li><a href="../Seccionesdelarevista.html" class="dropdown-link">Secciones de la revista</a></li>
                 </ul>
             </li>
             <li class="nav_item">
-                <a href="Catalogo.html" class="nav_link2">Catalogo</a>
+                <a href="../Catalogo.html" class="nav_link2">Catalogo</a>
             </li>
             <li class="nav_item">
-                <a href="galeria.html" class="nav_link2">Galeria de imagenes</a>
+                <a href="../galeria.html" class="nav_link2">Galeria de imagenes</a>
             </li>
             <li class="nav_item">
-                <a href="Videos.html" class="nav_link2">Videos</a>
+                <a href="../Videos.html" class="nav_link2">Videos</a>
             </li>
             <li class="nav_item">
-                <a href="Convocatorias.html" class="nav_link3">Convocatorias</a>
+                <a href="../Convocatorias.html" class="nav_link3">Convocatorias</a>
             </li>
             <li class="nav_item has-dropdown">
                 <a href="#" class="nav_link3 dropdown-toggle">
@@ -58,20 +58,20 @@
                     <li><a href="Bases.html" class="dropdown-link"> Bases</a></li>
                 </ul>
                 <ul class="dropdown">
-                    <li><a href="Lineamientos.html" class="dropdown-link"> Lineamientos para el envio de colaboraciones</a></li>
+                    <li><a href="../Lineamientos.html" class="dropdown-link"> Lineamientos para el envio de colaboraciones</a></li>
                 </ul>
             </li>
             <li class="nav_item">
                 <a href="#" class="nav_link3">Donaciones</a>
             </li>
             <li class="nav_item redes-sociales-menu">
-                <a target="_blank" class="social-link">
+                <a href="https://www.facebook.com/coaxolotl" target="_blank" class="social-link">
                     <i class="fab fa-facebook"></i>
                 </a>
-                <a href="https://www.instagram.com/revista_fosforo_/" target="_blank" class="social-link">
+                <a href="https://www.instagram.com/axolotl_mx_/" target="_blank" class="social-link">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a target="_blank" class="social-link">
+                <a href="https://x.com/co_axolotl" target="_blank" class="social-link">
                     <i class="fa-brands fa-x-twitter"></i>
                 </a>
             </li>
@@ -81,30 +81,47 @@
     <div class="content-wrapper">
         <div class="main-content">
             <div class="Acercade">
-            <h2>Convocatoria permanente</h2>
-            <p>A la juventud insurgente y rebelde que le han apagado la voz, 
-            que han querido borrarle su pluma y silenciar su pensamiento: <br> <br>
-            Ante la batalla cultural declarada por el fascismo, el neoliberalismo y 
-            la ultraderecha en el mundo, la juventud revolucionaria convocamos al uso 
-            de la escritura como una herramienta de difusión de las ideas de la 
-            juventud antifascista y antiimperialista. <br><br>
-            Porque las palabras que emergen de nuestros corazones, nuestras plumas y 
-            nuestros dedos al bailar el celular nos pertenecen y no nos las pueden robar. 
-            Por ello, invitamos a todas las juventudes identificadas a colaborar en 
-            la revista El Fósforo, la cual tiene como objetivo ser un espacio para 
-            nombrar la realidad, cuestionar y proponer nuevos horizontes a través de 
-            la escritura para contribuir a la revolución de las conciencias, a la 
-            construcción de un mundo nuevo. <br> <br>
-            ★¿Qué somos? Jóvenes que buscamos informar y debatir nuestro pensar por 
-            medio de esta revista digital, en búsqueda de revolución. <br><br>
-            ★¿Qué queremos? Asumimos como propio el objetivo de concretar la tarea 
-            histórica de la revolución de las conciencias y la construcción del poder popular. <br><br>
-            ★¿Qué hacemos? Somos una organización dedicada a la formación de cuadros 
-            políticos con el fin de participar políticamente desde diferentes espacios 
-            luchando contra todas las formas de opresión por la revolución de las 
-            conciencias, la justicia, la democracia real, por la defensa de la madre 
-            tierra y la vida.
-            </p>
+            <H2>Archivos</H2>
+                <div class="archivos">
+                    <h2>Tal vez</h2>
+                    <p style="color: #1f2937;">Isabel Matus Higuera</p>
+<p class="num_p_art">
+    <span class="verso">La modernidad la siento en cada célula de mi cuerpo,</span>
+    <span class="verso">mi cerebro solo quiere una dosis más de scroleo infinito.</span>
+    <span class="verso">Le tengo miedo al que está al lado de mí,</span>
+    <span class="verso">al calor que me cocina el cuerpo a fuego lento</span>
+    <span class="verso">mientras las noticias cocinan mis mecanismos cerebrales</span>
+    <span class="verso">primitivos para lidiar con el estrés.</span>
+    <br>
+    <span class="verso">Buscó posibles utopías para poder</span>
+    <span class="verso">tener fe en que algo mejor puede existir,</span>
+    <span class="verso">pero tiene que ser creado, como los grandes inventos,</span>
+    <span class="verso">un cohete que nos permita construir un mundo mejor,</span>
+    <span class="verso">esa idea que revolucione al mundo en el nivel justo</span>
+    <span class="verso">de idealismo y realidad, pero tal vez una idea así es</span>
+    <span class="verso">idealista en exceso, y entonces tengo una paradoja.</span>
+    <span class="verso">Entonces la fe me sostiene en mi nube de fantasía en</span>
+    <span class="verso">la que puedo crear lo imposible.</span>
+    <br>
+    <span class="verso">El otro nos espanta, y como somos humanos,</span>
+    <span class="verso">lo queremos devorar vivo, ya sea en los secretos nocturnos</span>
+    <span class="verso">o en peleas polarizadas, pero el otro es algo que consumimos,</span>
+    <span class="verso">no algo que escuchamos u observamos, entonces no puedo</span>
+    <span class="verso">acceder a cientos de mundos, porque estamos a un</span>
+    <span class="verso">mar de distancia unos de los otros.</span>
+    <br>
+    <span class="verso">Tal vez si hablo mil idiomas,</span>
+    <span class="verso">escucho mil historias, leo mil teorías, y</span>
+    <span class="verso">siento mil emociones, pueda entender algo</span>
+    <span class="verso">sobre porque la humanidad es infantilmente viciosa.</span>
+    <span class="verso">Tal vez un poema tenga lo mismo que enseñarme</span>
+    <span class="verso">que un libro de biología, y entonces, aun así,</span>
+    <span class="verso">sería solo el principio de un humilde intento.</span>
+</p>
+
+
+                    
+                </div>
             </div>
             <div class="Acercade">
                 <Img></Img>
@@ -124,7 +141,7 @@
                 </div>
                 <div class="Acercade">
                     <div class="Numerosrecientes">
-                        <img class="num_r" src="Imagenes/01/portada_01.jpeg" alt="Portadas_de_revistas" width="70%">
+                        <img class="num_r" src="/Imagenes/01/portada_01.jpeg" alt="Portadas_de_revistas" width="70%">
                             <p>Núm. 01 "Mundial 2026 ¿Un mundial del despojo?"</p>
                     </div>
                 </div>

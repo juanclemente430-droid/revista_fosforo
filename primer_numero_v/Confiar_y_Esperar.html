@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="paginaprincipalestilo.css">
+    <link rel="stylesheet" href="../paginaprincipalestilo.css">
     <title>Revista FOSFORO</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -11,8 +11,8 @@
      <header>  
         <div class="container">
             <figure class="nav_figure">
-            <a href="index.html" class="logo">
-                <img src="Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
+            <a href="../index.html" class="logo">
+                <img src="../Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
             </a>
             </figure>
 
@@ -21,34 +21,34 @@
             </label>
             <div class="iniciosesion">
                 <a href="{{ url_for('login') }}">
-                    <img src="Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
+                    <img src="../Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
                 </a>
             </div>  
         </div>
         <ul class="nav_list">
             <li class="nav_item">
-                <a href="index.html" class="nav_link2">Inicio</a>
+                <a href="../index.html" class="nav_link2">Inicio</a>
             </li>
             <li class="nav_item has-dropdown">
                 <a href="#" class="nav_link1 dropdown-toggle">
                     Acerca de la revista <span class="arrow">▼</span>
                 </a>
                 <ul class="dropdown">
-                    <li><a href="Enfoque.html" class="dropdown-link">Convocatoria permanente</a></li>
-                    <li><a href="Seccionesdelarevista.html" class="dropdown-link">Secciones de la revista</a></li>
+                    <li><a href="../Enfoque.html" class="dropdown-link">Convocatoria permanente</a></li>
+                    <li><a href="../Seccionesdelarevista.html" class="dropdown-link">Secciones de la revista</a></li>
                 </ul>
             </li>
             <li class="nav_item">
-                <a href="Catalogo.html" class="nav_link2">Catalogo</a>
+                <a href="../Catalogo.html" class="nav_link2">Catalogo</a>
             </li>
             <li class="nav_item">
-                <a href="galeria.html" class="nav_link2">Galeria de imagenes</a>
+                <a href="../galeria.html" class="nav_link2">Galeria de imagenes</a>
             </li>
             <li class="nav_item">
-                <a href="Videos.html" class="nav_link2">Videos</a>
+                <a href="../Videos.html" class="nav_link2">Videos</a>
             </li>
             <li class="nav_item">
-                <a href="Convocatorias.html" class="nav_link3">Convocatorias</a>
+                <a href="../Convocatorias.html" class="nav_link3">Convocatorias</a>
             </li>
             <li class="nav_item has-dropdown">
                 <a href="#" class="nav_link3 dropdown-toggle">
@@ -58,20 +58,20 @@
                     <li><a href="Bases.html" class="dropdown-link"> Bases</a></li>
                 </ul>
                 <ul class="dropdown">
-                    <li><a href="Lineamientos.html" class="dropdown-link"> Lineamientos para el envio de colaboraciones</a></li>
+                    <li><a href="../Lineamientos.html" class="dropdown-link"> Lineamientos para el envio de colaboraciones</a></li>
                 </ul>
             </li>
             <li class="nav_item">
                 <a href="#" class="nav_link3">Donaciones</a>
             </li>
             <li class="nav_item redes-sociales-menu">
-                <a target="_blank" class="social-link">
+                <a href="https://www.facebook.com/coaxolotl" target="_blank" class="social-link">
                     <i class="fab fa-facebook"></i>
                 </a>
-                <a href="https://www.instagram.com/revista_fosforo_/" target="_blank" class="social-link">
+                <a href="https://www.instagram.com/axolotl_mx_/" target="_blank" class="social-link">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a target="_blank" class="social-link">
+                <a href="https://x.com/co_axolotl" target="_blank" class="social-link">
                     <i class="fa-brands fa-x-twitter"></i>
                 </a>
             </li>
@@ -81,30 +81,41 @@
     <div class="content-wrapper">
         <div class="main-content">
             <div class="Acercade">
-            <h2>Convocatoria permanente</h2>
-            <p>A la juventud insurgente y rebelde que le han apagado la voz, 
-            que han querido borrarle su pluma y silenciar su pensamiento: <br> <br>
-            Ante la batalla cultural declarada por el fascismo, el neoliberalismo y 
-            la ultraderecha en el mundo, la juventud revolucionaria convocamos al uso 
-            de la escritura como una herramienta de difusión de las ideas de la 
-            juventud antifascista y antiimperialista. <br><br>
-            Porque las palabras que emergen de nuestros corazones, nuestras plumas y 
-            nuestros dedos al bailar el celular nos pertenecen y no nos las pueden robar. 
-            Por ello, invitamos a todas las juventudes identificadas a colaborar en 
-            la revista El Fósforo, la cual tiene como objetivo ser un espacio para 
-            nombrar la realidad, cuestionar y proponer nuevos horizontes a través de 
-            la escritura para contribuir a la revolución de las conciencias, a la 
-            construcción de un mundo nuevo. <br> <br>
-            ★¿Qué somos? Jóvenes que buscamos informar y debatir nuestro pensar por 
-            medio de esta revista digital, en búsqueda de revolución. <br><br>
-            ★¿Qué queremos? Asumimos como propio el objetivo de concretar la tarea 
-            histórica de la revolución de las conciencias y la construcción del poder popular. <br><br>
-            ★¿Qué hacemos? Somos una organización dedicada a la formación de cuadros 
-            políticos con el fin de participar políticamente desde diferentes espacios 
-            luchando contra todas las formas de opresión por la revolución de las 
-            conciencias, la justicia, la democracia real, por la defensa de la madre 
-            tierra y la vida.
-            </p>
+            <H2>Archivos</H2>
+                <div class="archivos">
+                    <h2>Confiar y Esperar</h2>
+                    <p style="color: #1f2937;">Luis Carlos Jesus Flores Sane</p>
+                    <p class="num_p_art">
+Tras el secuestro del presidente constitucional Nicolás Maduro Moros y de la diputada Cilia 
+Flores, el gobierno venezolano quedó encabezado por la vicepresidenta Delcy Rodríguez, 
+acompañada por el presidente de la Asamblea Nacional Jorge Rodríguez y el Ministro del 
+Interior, Justicia y Paz Diosdado Cabello. La administración enfrenta un escenario complejo 
+marcado por las medidas coercitivas, los bombardeos del 3 de enero y la crisis derivada del 
+terremoto que afectó Caracas y estados vecinos. <br> <br> 
+
+Al mismo tiempo, las críticas al gobierno continúan, incluso desde sectores de izquierda que 
+consideran que los recientes contactos con representantes de Estados Unidos e Israel representan 
+una renuncia a los principios de la Revolución Bolivariana. Sin embargo, otra interpretación 
+sostiene que estas conversaciones responden a la necesidad de buscar el regreso de Nicolás 
+Maduro y Cilia Flores mediante la negociación. <br> <br>
+
+Los diálogos entre ambos países no son nuevos. En el pasado permitieron acuerdos como la 
+liberación de Alex Saab y el retorno de una menor venezolana cautiva en EE.UU. por ICE. Desde 
+esta perspectiva, el gobierno estaría privilegiando la diplomacia para evitar una mayor escalada 
+del conflicto. <br> <br>
+
+En este contexto, el hijo del presidente,  Nicolás Maduro Guerra y Diosdado Cabello han 
+defendido públicamente la estrategia de diálogo, afirmando que negociar no implica capitular, 
+sino buscar la paz, el levantamiento de las sanciones y el respeto a la Constitución. Mientras
+ se espera la próxima audiencia de Nicolás Maduro, prevista para el 17 de noviembre, la 
+ incertidumbre obliga a todos los Revolucionarios recordar la célebre frase de Edmundo Dantés 
+ en El Conde de Montecristo: “Confiar y Esperar”. <br> <br>
+
+
+
+
+                    </p> 
+                </div>
             </div>
             <div class="Acercade">
                 <Img></Img>
@@ -124,7 +135,7 @@
                 </div>
                 <div class="Acercade">
                     <div class="Numerosrecientes">
-                        <img class="num_r" src="Imagenes/01/portada_01.jpeg" alt="Portadas_de_revistas" width="70%">
+                        <img class="num_r" src="/Imagenes/01/portada_01.jpeg" alt="Portadas_de_revistas" width="70%">
                             <p>Núm. 01 "Mundial 2026 ¿Un mundial del despojo?"</p>
                     </div>
                 </div>

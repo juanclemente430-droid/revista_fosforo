@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../paginaprincipalestilo.css">
+    <title>Revista FOSFORO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+     <header>  
+        <div class="container">
+            <figure class="nav_figure">
+            <a href="../index.html" class="logo">
+                <img src="../Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
+            </a>
+            </figure>
+
+            <label class="nav_toggel">
+                <input type="checkbox" id="menu-input" class="nav_input">
+            </label>
+            <div class="iniciosesion">
+                <a href="{{ url_for('login') }}">
+                    <img src="../Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
+                </a>
+            </div>  
+        </div>
+        <ul class="nav_list">
+            <li class="nav_item">
+                <a href="../index.html" class="nav_link2">Inicio</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link1 dropdown-toggle">
+                    Acerca de la revista <span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="../Enfoque.html" class="dropdown-link">Convocatoria permanente</a></li>
+                    <li><a href="../Seccionesdelarevista.html" class="dropdown-link">Secciones de la revista</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="../Catalogo.html" class="nav_link2">Catalogo</a>
+            </li>
+            <li class="nav_item">
+                <a href="../galeria.html" class="nav_link2">Galeria de imagenes</a>
+            </li>
+            <li class="nav_item">
+                <a href="../Videos.html" class="nav_link2">Videos</a>
+            </li>
+            <li class="nav_item">
+                <a href="../Convocatorias.html" class="nav_link3">Convocatorias</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link3 dropdown-toggle">
+                    Publicar<span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="Bases.html" class="dropdown-link"> Bases</a></li>
+                </ul>
+                <ul class="dropdown">
+                    <li><a href="../Lineamientos.html" class="dropdown-link"> Lineamientos para el envio de colaboraciones</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="#" class="nav_link3">Donaciones</a>
+            </li>
+            <li class="nav_item redes-sociales-menu">
+                <a href="https://www.facebook.com/coaxolotl" target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/axolotl_mx_/" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/co_axolotl" target="_blank" class="social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+<section id="apartados">
+    <div class="content-wrapper">
+        <div class="main-content">
+            <div class="Acercade">
+            <H2>Archivos</H2>
+                <div class="archivos">
+                    <h2>Y en eso llegó el mundial...</h2>
+                    <p style="color: #1f2937;">Por Gerardo Vega </p>
+                    <p class="num_p_art">
+                        En un país cegado por la industria cultural, consumido por la inseguridad que se vive hoy en día, 
+                        harto de las desapariciones y la delincuencia organizada, llegó el mundial. <br><br>
+
+                        Del mundial podemos hablar mucho, podríamos hablar del turismo que llegará a nuestro país, podríamos 
+                        aplaudir las megaobras que nuestros políticos han hecho para los visitantes, pero la realidad es otra. <br>
+
+                        <img src="/Imagenes/01/m1.png" alt="Imagen_mundial" id="imagen-flotante-mundial">
+                        
+                        La realidad es otra porque así como Fidel “mandó a parar”, como dice la canción, creyendo que habría una liberación 
+                        y la instauración de una nueva república, en realidad no fue así. <br><br>
+
+                        El mundial mandó a parar comercios ambulantes, servicio indispensable del metro en la CDMX y nos trajo remodelaciones 
+                        mediocres, utopías insignificantes que nadie pidió y por si fuera poco, despojos en hogares para instalar AIRBNB.  <br><br>
+
+                        Pareciera que limpiar las calles de comercios ambulantes hará que la ciudad se vea más “limpia” a los ojos del turismo 
+                        internacional.  <br><br>
+                    </p>
+
+                       <h3>Simular en este gobierno, es la solución. </h3>
+                    <p class="num_p_art">
+                      <img src="/Imagenes/01/m2.jpg" alt="Imagen_mundial" id="imagen-flotante-mundial2">
+                       Dejando a un lado los verdaderos problemas en el STC, es más fácil para la 4T hacer que se vean más estéticas estaciones 
+                       específicas para aparentar que todo funciona a la perfección que de verdad ofrecer un transporte digno para todos
+                        los ciudadanos. Esto nos ha traído aglomeraciones exageradas, caminos entre escombros, cierre de entradas/salidas sin 
+                        avisar, recorridos fastidiosos y tiempos de espera impredecibles que afectan a estudiantes y trabajadores de toda 
+                        la ciudad y del Estado de México. <br><br>
+
+                        Pero el agravio no termina ahí; al parecer el mundial lo justifica todo. Como si el optimismo y la emoción de la 
+                        llegada por el mundial fuera obligatorio, tenemos que soportar este tipo de abuso a la razón: una lógica donde es más 
+                        importante la foto para el turista que realmente solucionar los problemas estructurales en esta ciudad.  <br><br>
+                    </p> 
+
+                        <h3>Fachadas para ocultar la realidad que se vive. </h3>
+                    <p class="num_p_art">
+                        El “premio” se lo lleva la colonia Santa Úrsula Coapa, recibiendo la mayoría de Utopías impulsadas por el gobierno 
+                        de Clara Brugada. La cifra oficial es deslumbrante: 5,183 millones de pesos invertidos en supuestos 200 kilómetros 
+                        de 'mejoras' de movilidad; y así </p>
+
+                    <img src="/Imagenes/01/m3.jpg" alt="Imagen_mundial" id="imagen-flotante-mundial3">
+                        
+                    <p class="num_p_art">
+                        tuvo que llegar el mundial para que el abandono de esta colonia por fin terminara, 
+                        abriendo el paso a una modernización que, irónicamente, ahora amenaza con desplazar a quienes resistieron ese abandono 
+                        durante décadas. <br><br>   
+
+                        Con una inversión aproximada (hasta ahora) de más de 200 millones de pesos en alcaldías como Coyoacán y Tlalpan, hay 
+                        colonias beneficiadas alrededor del Estadio Azteca (Banorte) que reciben estás transformaciones que no bastan para los 
+                        habitantes, ya que afectan su movilidad en obras como el CETRAM Huipulco; sin embargo no hay un cuando para las nuevas 
+                        “reubicaciones” del comercio ambulante que estaba ubicado en el puente peatonal que conecta con el estadio. Pero la 
+                        gobernadora lo ha dicho “La fiesta del Mundial permitió acelerar no solo las obras de la última milla, sino todas las 
+                        acciones planeadas para mejorar la ciudad”.   <br><br>
+
+                        Quiero agregar: esto no es una simple queja, es un llamado a la conciencia y quizás hacia otro México. Un México que 
+                        no espere la llegada de una copa para remodelar y darle atención a sus grandes ciudades. Creo en mi país, creo en la 
+                        riqueza cultural que nos satisface a todos. En quién no debemos de creer, es en el gobierno que nos miente a diario. 
+                        En esta era de la propaganda y el algoritmo donde pesa más el “cómo” que el “para que” , donde la verdad se vuelve tan 
+                        insignificante. Al final, el mundial no llegó para integrarnos sino para vendernos la idea de que vale más un mundial 
+                        que una ciudad habitable, digna de un transporte público eficiente  y que no importa si te afecta a ti o a mi…les invito 
+                        a que acabemos con la polarización que existe en nuestro país, exigir transparencia y devolverle la gobernabilidad a México.         
+
+
+
+                    </p>
+
+
+
+                    
+                </div>
+            </div>
+            <div class="Acercade">
+                <Img></Img>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="Acercade">
+                    <button>Enviar un articulo</button>
+                    <!--<h3>Información</h3> 
+                    <a href="">Para lectores/as</a><br>
+                    <a href="">Para autores/as</a>-->
+                </div>
+
+                <div class="Acercade">
+                    <h2 id="NA">Números recientes</h2>
+                </div>
+                <div class="Acercade">
+                    <div class="Numerosrecientes">
+                        <img class="num_r" src="/Imagenes/01/portada_01.jpeg" alt="Portadas_de_revistas" width="70%">
+                            <p>Núm. 01 "Mundial 2026 ¿Un mundial del despojo?"</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</section>
+        <section id="contacto">
+            <div class="carta">
+                <div class="container">
+                    <h2>Sitios de interés</h2>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="container-redes-sociales">
+                </div>
+            </div>
+            <div class="carta">
+                <p>&copy;Revista Fosforo</p>
+            </div>
+</section> 
+    <script>
+        // Esperar a que termine la animación de las letras y luego mostrar el contenido
+        setTimeout(() => {
+            const loadingScreen = document.getElementById('loading-screen');
+            const mainContent = document.getElementById('main-content');
+            
+            // Ocultar pantalla de carga
+            loadingScreen.classList.add('fade-out');
+            
+            // Mostrar contenido principal
+            setTimeout(() => {
+                mainContent.classList.add('show');
+            }, 300);
+        }, 2500);
+
+        // Menú desplegable
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const menuItem = this.parentElement;
+                    const dropdown = menuItem.querySelector('.dropdown');
+                    
+                    // Toggle del dropdown
+                    menuItem.classList.toggle('active');
+                    dropdown.classList.toggle('active');
+                });
+            });
+
+            // Cerrar dropdown al hacer clic fuera
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.nav_item.has-dropdown')) {
+                    document.querySelectorAll('.nav_item.has-dropdown.active').forEach(item => {
+                        item.classList.remove('active');
+                        item.querySelector('.dropdown').classList.remove('active');
+                    });
+                }
+            });
+        });
+    </script>   
+</body>
+</html>

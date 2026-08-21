@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="paginaprincipalestilo.css">
+    <link rel="stylesheet" href="../paginaprincipalestilo.css">
     <title>Revista FOSFORO</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -11,8 +11,8 @@
      <header>  
         <div class="container">
             <figure class="nav_figure">
-            <a href="index.html" class="logo">
-                <img src="Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
+            <a href="../index.html" class="logo">
+                <img src="../Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
             </a>
             </figure>
 
@@ -21,7 +21,7 @@
             </label>
             <div class="iniciosesion">
                 <a href="{{ url_for('login') }}">
-                    <img src="Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
+                    <img src="../Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
                 </a>
             </div>  
         </div>
@@ -39,16 +39,16 @@
                 </ul>
             </li>
             <li class="nav_item">
-                <a href="#" class="nav_link2">Catalogo</a>
+                <a href="../Catalogo.html" class="nav_link2">Catalogo</a>
             </li>
             <li class="nav_item">
-                <a href="galeria.html" class="nav_link2">Galeria de imagenes</a>
+                <a href="../galeria.html" class="nav_link2">Galeria de imagenes</a>
             </li>
             <li class="nav_item">
-                <a href="Videos.html" class="nav_link2">Videos</a>
+                <a href="../Videos.html" class="nav_link2">Videos</a>
             </li>
             <li class="nav_item">
-                <a href="Convocatorias.html" class="nav_link3">Convocatorias</a>
+                <a href="../Convocatorias.html" class="nav_link3">Convocatorias</a>
             </li>
             <li class="nav_item has-dropdown">
                 <a href="#" class="nav_link3 dropdown-toggle">
@@ -58,20 +58,20 @@
                     <li><a href="Bases.html" class="dropdown-link"> Bases</a></li>
                 </ul>
                 <ul class="dropdown">
-                    <li><a href="Lineamientos.html" class="dropdown-link"> Lineamientos para el envio de colaboraciones</a></li>
+                    <li><a href="../Lineamientos.html" class="dropdown-link"> Lineamientos para el envio de colaboraciones</a></li>
                 </ul>
             </li>
             <li class="nav_item">
                 <a href="#" class="nav_link3">Donaciones</a>
             </li>
             <li class="nav_item redes-sociales-menu">
-                <a href="https://www.facebook.com/coaxolotl" target="_blank" class="social-link">
+                <a href="#"  class="social-link">
                     <i class="fab fa-facebook"></i>
                 </a>
-                <a href="https://www.instagram.com/axolotl_mx_/" target="_blank" class="social-link">
+                <a href="https://www.instagram.com/fosf_ororevista?igsh=YmE5OWdvNzV3OTdx" class="social-link">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://x.com/co_axolotl" target="_blank" class="social-link">
+                <a href="#" class="social-link">
                     <i class="fa-brands fa-x-twitter"></i>
                 </a>
             </li>
@@ -82,32 +82,8 @@
         <div class="main-content">
             <div class="Acercade">
             <H2>Archivos</H2>
-                <div class="archivos">
-                    <a href="primer_numero/primer_numero.html"><img class="portadas_numeros" src="Imagenes/portada_numero_0.png" alt="Portadas_de_revistas" width="15%"></a>
-                    <a href="primer_numero/primer_numero.html"><h3 style="color: rgb(45, 100, 172);">"Voces que resisten al ruido: crónicas de un tejido social en disputa"</h3></a>
-                    <p id="num">Núm. 00 (2026)</p>
-                    <p id="num_p">En este dossier se exponen una serie de articulos que reflexionan  
-                        sobre las transformaciones sociales, políticas y culturales de nuestro 
-                        tiempo. A través de distintos enfoques, se abordan temas que van desde 
-                        la crisis de 
-                        la atención en la era del streaming y las redes sociales, donde la 
-                        inmediatez y el contenido rápido desplazan la reflexión profunda; 
-                        hasta un análisis histórico del imperialismo estadounidense, su 
-                        evolución como hegemonía global y su actual repliegue hacia América. <br><br> 
-                        También se examina: el papel de las plataformas digitales como 
-                        herramientas de manipulación política, la necesidad de una mirada 
-                        pedagógica para comprender movimientos estudiantiles, como la huelga 
-                        de 1999 en la UNAM, y, en contraste con la lógica de la guerra y 
-                        la deshumanización, se reivindica la fraternidad y la memoria histórica 
-                        a partir de la Tregua de Navidad de 1914.
-
-                        En conjunto, los textos proponen una lectura crítica de 
-                        fenómenos como: el imperialismo contemporáneo, la velocidad mediática, 
-                        la fragilidad del tejido social y la resistencia cultural.</p>
-                </div>
-
                     <div class="archivos">
-                    <a href="primer_numero_v/primer_numero_v.html"><img class="portadas_numeros" src="Imagenes/01/portada_01.jpeg" alt="Portadas_de_revistas" width="15%"></a>
+                    <a href="primer_numero/primer_numero.html"><img class="portadas_numeros" src="/Imagenes/01/portada_01.jpeg" alt="Portadas_de_revistas" width="15%"></a>
                     <a href="primer_numero_v/primer_numero_v.html"><h3 style="color: rgb(45, 100, 172);">"Mundial 2026 ¿Un mundial del despojo?"</h3></a>
                     <p id="num">Núm. 01 (2026)</p>
                     <p id="num_p">En este dossier se exponen una serie de articulos que reflexionan  
@@ -129,7 +105,45 @@
                         fenómenos como: el imperialismo contemporáneo, la velocidad mediática, 
                         la fragilidad del tejido social y la resistencia cultural.</p>
                 </div>
+                <div class="archivos">
+                    <p style="color: red;">Dossier</p>
+                    <a href="mundial.html"><p class="num_n_a">Y en eso llegó el mundial...</p></a>
+                    <p style="color: #1f2937;">Gerardo Vega </p>
+                    <a href="../PDF/01v/Y EN ESO LLEGO EL MUNDIAL….pdf.docx.pdf" download><button id="num_b"> PDF</button></a>
+                </div>
+                <div class="archivos">
+                    <p style="color: red;">Natalia Beristain / Cultura y arte</p>
+                    <a href="tal_vez.html"><p class="num_n_a">Tal vez</p></a>
+                    <p style="color: #1f2937;">Isabel Matus Higuera</p>
+                    <a href="../PDF/01v/Tal vez-Poema.docx.pdf" download><button id="num_b"> PDF</button></a>
+                </div>
+                <div class="archivos">
+                    <p style="color: red;">Abya Yala / América Latina</p>
+                    <a href="titulo_desconocido.html"><p class="num_n_a">Titulo desconocido</p></a>
+                    <p style="color: #1f2937;">Sara</p>
+                    <a href="../PDF/01v/Por_ Sara.pdf" download><button id="num_b"> PDF</button></a>
+                
+                    <a href="Confiar_y_Esperar.html"><p class="num_n_a">Confiar y Esperar</p></a>
+                    <p style="color: #1f2937;">Luis Carlos Jesus Flores Sane</p>
+                   <a href="../PDF/01v/Confiar y Esperar. Publicación .docx.pdf" download=""><button id="num_b"> PDF</button></a>
 
+                </div>
+                <div class="archivos">
+                    <p style="color: red;">Proletarios del mundo, uníos / Internacional </p>
+                    <a href="La_pelota_no_pertenece_a_la_FIFA.html"><p class="num_n_a">La pelota no pertenece a la FIFA</p></a>
+                    <p style="color: #1f2937;">Jonathan Omar Bucio Rivera</p>
+                    <a href="../PDF/01v/La_pelota_no_pertenece_a_la_FIFA.docx.pdf" download><button id="num_b"> PDF</button></a>
+                </div>
+                <div class="archivos">
+                    <p style="color: red;">Pablo González Casanova / Movimientos estudiantiles </p>
+                    <a href="k_tranza_con_la_UNAM.html"><p class="num_n_a">K tranza con la UNAM</p></a>
+                    <p style="color: #1f2937;">Odiseo Polakeño</p>
+                    <a href="../PDF/01v/K TRANZA CON LA UNAM.pdf" download><button id="num_b"> PDF</button></a>
+                
+                    <a href="Consignas_CCH_VALLEJO.html"><p class="num_n_a">Consignas CCH VALLEJO</p></a>
+                    <p style="color: #1f2937;">Colectivo Difusión Casanova</p>
+                    <a href="../PDF/01v/Consignas CCH VALLEJO.pdf" download><button id="num_b"> PDF</button></a>
+                </div>
             </div>
             <div class="Acercade">
                 <Img></Img>
@@ -149,7 +163,7 @@
                 </div>
                 <div class="Acercade">
                     <div class="Numerosrecientes">
-                        <img class="num_r" src="Imagenes/01/portada_01.jpeg" alt="Portadas_de_revistas" width="70%">
+                        <img class="num_r" src="/Imagenes/01/portada_01.jpeg" alt="Portadas_de_revistas" width="70%">
                             <p>Núm. 01 "Mundial 2026 ¿Un mundial del despojo?"</p>
                     </div>
                 </div>

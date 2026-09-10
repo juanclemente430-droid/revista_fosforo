@@ -218,17 +218,6 @@ header {
     padding: 0;
     border-radius: 30px;
 }
-
-header .iniciose{
-    padding: 0;
-    width: 30px;
-    height: 30px;
-}
-
-.iniciosesion{
-    order: 3;
-    z-index: 10;
-}
 .logo-img {
     height: 45px; /* Ajusta la altura según tu diseño */
     width: auto;
@@ -392,7 +381,9 @@ header .container:has(.nav_input:checked){
     justify-content: center;
     align-items: center;
     z-index: 10;
-    order: 2;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
 }
 
 .nav_input{

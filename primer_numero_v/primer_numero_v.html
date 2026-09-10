@@ -22,11 +22,6 @@ permalink: /catalogo/primer-numero/
             <label class="nav_toggel">
                 <input type="checkbox" id="menu-input" class="nav_input">
             </label>
-            <div class="iniciosesion">
-                <a href="{{ url_for('login') }}">
-                    <img src="/Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
-                </a>
-            </div>  
         </div>
         <ul class="nav_list">
             <li class="nav_item">
@@ -37,45 +32,48 @@ permalink: /catalogo/primer-numero/
                     Acerca de la revista <span class="arrow">▼</span>
                 </a>
                 <ul class="dropdown">
-                    <li><a href="Enfoque.html" class="dropdown-link">Convocatoria permanente</a></li>
-                    <li><a href="Seccionesdelarevista.html" class="dropdown-link">Secciones de la revista</a></li>
+                    <li><a href="/convocaría-permanente/" class="dropdown-link">Convocatoria permanente</a></li>
+                    <li><a href="/secciones/" class="dropdown-link">Secciones de la revista</a></li>
                 </ul>
             </li>
             <li class="nav_item">
-                <a href="/Catalogo.html" class="nav_link2">Catalogo</a>
+                <a href="/catalogo/" class="nav_link2">Catalogo</a>
             </li>
             <li class="nav_item">
-                <a href="/galeria.html" class="nav_link2">Galeria de imagenes</a>
+                <a href="/galería/" class="nav_link2">Galeria de imagenes</a>
             </li>
             <li class="nav_item">
-                <a href="/Videos.html" class="nav_link2">Videos</a>
+                <a href="/videos/" class="nav_link2">Videos</a>
             </li>
             <li class="nav_item">
-                <a href="/Convocatorias.html" class="nav_link3">Convocatorias</a>
+                <a href="/convocatorias/" class="nav_link3">Convocatorias</a>
             </li>
             <li class="nav_item has-dropdown">
                 <a href="#" class="nav_link3 dropdown-toggle">
                     Publicar<span class="arrow">▼</span>
                 </a>
                 <ul class="dropdown">
-                    <li><a href="/Bases.html" class="dropdown-link"> Bases</a></li>
+                    <li><a href="/bases/" class="dropdown-link"> Bases</a></li>
                 </ul>
                 <ul class="dropdown">
-                    <li><a href="/Lineamientos.html" class="dropdown-link"> Lineamientos para el envio de colaboraciones</a></li>
+                    <li><a href="/lineamientos-para-el-envío-de-colaboraciones/" class="dropdown-link"> Lineamientos para el envio de colaboraciones</a></li>
                 </ul>
             </li>
-            <li class="nav_item">
+            <!--<li class="nav_item">
                 <a href="#" class="nav_link3">Donaciones</a>
-            </li>
+            </li>-->
             <li class="nav_item redes-sociales-menu">
-                <a href="#"  class="social-link">
+                <a target="_blank" class="social-link">
                     <i class="fab fa-facebook"></i>
                 </a>
-                <a href="https://www.instagram.com/fosf_ororevista?igsh=YmE5OWdvNzV3OTdx" class="social-link">
+                <a href="https://www.instagram.com/revista_fosforo_/" target="_blank" class="social-link">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a href="#" class="social-link">
+                <a target="_blank" class="social-link">
                     <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com/@RevistaElFosforo" target="_blank" class="social-link">
+                    <i class="fa-brands fa-youtube"></i>
                 </a>
             </li>
         </ul>
@@ -112,40 +110,40 @@ permalink: /catalogo/primer-numero/
                 </div>
                 <div class="archivos">
                     <p style="color: red;">Dossier</p>
-                    <a href="/primer-numero/y-en-eso-llego-el-mundial/"><p class="num_n_a">Y en eso llegó el mundial...</p></a>
+                    <a href="/catalogo/primer-numero/y-en-eso-llego-el-mundial/"><p class="num_n_a">Y en eso llegó el mundial...</p></a>
                     <p style="color: #1f2937;">Gerardo Vega </p>
                     <a href="../PDF/01v/Y EN ESO LLEGO EL MUNDIAL….pdf.docx.pdf" download><button id="num_b"> PDF</button></a>
                 </div>
                 <div class="archivos">
                     <p style="color: red;">Natalia Beristain / Cultura y arte</p>
-                    <a href="tal_vez.html"><p class="num_n_a">Tal vez</p></a>
+                    <a href="/catalogo/primer-numero/tal-vez/"><p class="num_n_a">Tal vez</p></a>
                     <p style="color: #1f2937;">Isabel Matus Higuera</p>
                     <a href="../PDF/01v/Tal vez-Poema.docx.pdf" download><button id="num_b"> PDF</button></a>
                 </div>
                 <div class="archivos">
                     <p style="color: red;">Abya Yala / América Latina</p>
-                    <a href="titulo_desconocido.html"><p class="num_n_a">Titulo desconocido</p></a>
+                    <a href="/catalogo/primer-numero/texto/"><p class="num_n_a">Titulo desconocido</p></a>
                     <p style="color: #1f2937;">Sara</p>
                     <a href="../PDF/01v/Por_ Sara.pdf" download><button id="num_b"> PDF</button></a>
                 
-                    <a href="Confiar_y_Esperar.html"><p class="num_n_a">Confiar y Esperar</p></a>
+                    <a href="/catalogo/primer-numero/confiar-y-esperar/"><p class="num_n_a">Confiar y Esperar</p></a>
                     <p style="color: #1f2937;">Luis Carlos Jesus Flores Sane</p>
                    <a href="../PDF/01v/Confiar y Esperar. Publicación .docx.pdf" download=""><button id="num_b"> PDF</button></a>
 
                 </div>
                 <div class="archivos">
                     <p style="color: red;">Proletarios del mundo, unídos / Internacional </p>
-                    <a href="La_pelota_no_pertenece_a_la_FIFA.html"><p class="num_n_a">La pelota no pertenece a la FIFA</p></a>
+                    <a href="/catalogo/primer-numero/la-pelota-no-pertenece-a-la-fifa/"><p class="num_n_a">La pelota no pertenece a la FIFA</p></a>
                     <p style="color: #1f2937;">Jonathan Omar Bucio Rivera</p>
                     <a href="../PDF/01v/La_pelota_no_pertenece_a_la_FIFA.docx.pdf" download><button id="num_b"> PDF</button></a>
                 </div>
                 <div class="archivos">
                     <p style="color: red;">Pablo González Casanova / Movimientos estudiantiles </p>
-                    <a href="k_tranza_con_la_UNAM.html"><p class="num_n_a">K tranza con la UNAM</p></a>
+                    <a href="/catalogo/primer-numero/k-tranza-con-la-UNAM/"><p class="num_n_a">K tranza con la UNAM</p></a>
                     <p style="color: #1f2937;">Odiseo Polakeño</p>
                     <a href="../PDF/01v/K TRANZA CON LA UNAM.pdf" download><button id="num_b"> PDF</button></a>
                 
-                    <a href="Consignas_CCH_VALLEJO.html"><p class="num_n_a">Consignas CCH VALLEJO</p></a>
+                    <a href="/catalogo/primer-numero/consignas-cch-vallejo/"><p class="num_n_a">Consignas CCH VALLEJO</p></a>
                     <p style="color: #1f2937;">Colectivo Difusión Casanova</p>
                     <a href="../PDF/01v/Consignas CCH VALLEJO.pdf" download><button id="num_b"> PDF</button></a>
                 </div>

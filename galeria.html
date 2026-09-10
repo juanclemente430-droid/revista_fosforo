@@ -1,5 +1,5 @@
 ---
-permalink: /galería/
+permalink: /galeria/
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +10,7 @@ permalink: /galería/
     <title>Revista FOSFORO</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<body class="galeria">>
+<body class="galeria">
      <header>  
         <div class="container">
             <figure class="nav_figure">
@@ -83,26 +83,20 @@ permalink: /galería/
         <div class="main-content">
             <div class="Acercade">
             <H2 style="color: white;">Galeria</H2>
-                    <div class="cuadricula">
-                            <img src="Imagenes/01/IMG_0054.jpeg">
-                            <img src="Imagenes/01/trump y empstein.png">
-                            <img src="Imagenes/01/Untitled design - 1.png">
-                            <img src="Imagenes/01/Untitled design - 10.jpeg">
-                            <img src="Imagenes/01/Untitled design - 11.jpeg">
-                            <img src="Imagenes/01/Untitled design - 2.jpeg">
-                            <img src="Imagenes/01/Untitled design - 3.jpeg">
-                            <img src="Imagenes/01/Untitled design - 4.jpeg">
-                            <img src="Imagenes/01/Untitled design - 5.jpeg">
-                            <img src="Imagenes/01/Untitled design - 6.jpeg">
-                            <img src="Imagenes/01/Untitled design - 7.jpeg">
-                            <img src="Imagenes/01/Untitled design - 8.jpeg">
-                            <img src="Imagenes/01/Untitled design - 9.jpeg">
-                    </div>
-            </div>
-            <div class="Acercade">
-                <Img></Img>
+                <div class="album-grid">
+                    <a href="/catalogo/primer-numero/galeria/" class="album-card">
+                        <img src="/Imagenes/001/ALFONSO ALVARADO FOTOS.png" alt="Núm. 01">
+                        <p>Núm. 01 "Mundial 2026 ¿Un mundial del despojo?"</p>
+                    </a>
+
+                    <a href="/catalogo/primer-cero/galeria/" class="album-card">
+                        <img src="/Imagenes/01/Untitled design - 5.jpeg" alt="Núm. 00">
+                        <p>Núm. 00 "Voces que resisten al ruido: crónicas de un tejido social en disputa"</p>
+                    </a>
+                </div>
             </div>
         </div>
+        
         <aside class="sidebar">
             <div class="sidebar-section">
                 <div class="Acercade">
@@ -139,11 +133,6 @@ permalink: /galería/
                 <p>&copy;Revista Fosforo</p>
             </div>
 </section> 
-<!-- Lightbox -->
-<div class="lightbox" id="lightbox">
-    <span class="lightbox-cerrar" id="lightboxCerrar">&times;</span>
-    <img id="lightboxImg" src="" alt="">
-</div>
     <script>
         // Esperar a que termine la animación de las letras y luego mostrar el contenido
         setTimeout(() => {
@@ -185,36 +174,6 @@ permalink: /galería/
                 }
             });
         });
-            const lightbox = document.getElementById('lightbox');
-    const lightboxImg = document.getElementById('lightboxImg');
-    const lightboxCerrar = document.getElementById('lightboxCerrar');
-
-    // Abrir al hacer clic en cualquier imagen de la galería
-    document.querySelectorAll('.cuadricula img').forEach(img => {
-        img.addEventListener('click', () => {
-            lightboxImg.src = img.src;
-            lightbox.classList.add('active');
-        });
-    });
-
-    // Cerrar con el botón X
-    lightboxCerrar.addEventListener('click', () => {
-        lightbox.classList.remove('active');
-    });
-
-    // Cerrar al hacer clic fuera de la imagen
-    lightbox.addEventListener('click', (e) => {
-        if (e.target === lightbox) {
-            lightbox.classList.remove('active');
-        }
-    });
-
-    // Cerrar con la tecla Escape
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-            lightbox.classList.remove('active');
-        }
-    });
     </script>   
 </body>
 </html>

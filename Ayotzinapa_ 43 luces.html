@@ -23,7 +23,7 @@ permalink: /mermorial-digital-43-luces/
 <body>
 <style>
 :root{
-  --bg:#7A0004;--fg:#e9efe9;--muted:#4b6b63;
+  --bg:#7A0004;--fg:#e9efe9;--muted:#9db5ad;
   --turtle:#5b9b85;--shell:#1f4a44;--guide:#e4eee8;--candle:#d9822b;
   box-sizing:border-box;
   padding-top:env(safe-area-inset-top,0px);
@@ -31,7 +31,7 @@ permalink: /mermorial-digital-43-luces/
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
-    --bg:#7A0004;--fg:#e9efe9;--muted:#9db5ad;
+    --bg:#7A0004;--fg:#e9efe9;--muted:#d9822b;
     --turtle:#4d8f7a;--shell:#173a38;--guide:#e9efe9;--candle:#f2b660;
   }
 }
@@ -64,9 +64,7 @@ main{
   font-size:clamp(1.6rem,6.5vw,2.4rem);line-height:1.15;max-width:18ch;
 }
 .nombre.pista{font-family:inherit;font-size:1rem;color:var(--muted);max-width:none}
-.lista{margin:0 0 2rem;width:100%;max-width:34rem}
-.lista summary{cursor:pointer;color:var(--muted);padding:.4rem}
-.lista ol{text-align:left;columns:2 14rem;column-gap:2rem;margin:1rem 0 0;padding-left:2rem}
+.lista{text-align:left;width:100%;max-width:34rem;margin:0 0 2rem;columns:2 14rem;column-gap:2rem;padding-left:2rem}
 .lista li{padding:.15rem 0;break-inside:avoid}
 .nota{margin:1.25rem 0 0;max-width:34rem;color:var(--muted);font-size:.9rem}
 @keyframes tiembla{0%,100%{opacity:.12}50%{opacity:.34}}
@@ -86,10 +84,11 @@ h1{
   .tortuga,.halo{animation:none}
   .halo{opacity:.22}
 }
+
 </style>
 </head>
 <body>
-       <header>  
+         <header>  
         <div class="container">
             <figure class="nav_figure">
             <a href="/index.html" class="logo">
@@ -185,9 +184,9 @@ h1{
   <p class="origen">En náhuatl, el nombre suele interpretarse como "río de las tortuguitas".</p>
   <p class="hechos">La noche del 26 de septiembre de 2014, 43 estudiantes de la Escuela Normal Rural Raúl Isidro Burgos fueron desaparecidos en Iguala, Guerrero. Cada luz del caparazón es uno de ellos.</p>
   <p class="lema">¡Vivos se los llevaron, vivos los queremos!</p>
-  <details class="lista"><summary>Ver los 43 nombres</summary><ol id="lista"></ol></details>
+  <ol class="lista" id="lista"></ol>
   <p class="pie">Verdad y justicia para los 43.</p>
-  <p class="nota">Los restos de tres de ellos (Alexander Mora Venancio, Christian Alfonso Rodríguez Telumbre y Jhosivani Guerrero de la Cruz) han sido identificados; sus familias siguen exigiendo verdad y justicia. Lista según el Mecanismo Especial de Seguimiento de la CIDH; la ortografía de algunos apellidos varía entre fuentes.</p>
+  <p class="nota">Los restos de tres de ellos (Alexander Mora Venancio, Christian Alfonso Rodríguez Telumbre y Jhosivani Guerrero de la Cruz) han sido identificados; sus familias siguen exigiendo verdad y justicia. Lista según el Mecanismo Especial de Seguimiento de la CIDH.</p>
 </main>
 <script>
 (function(){
@@ -225,6 +224,46 @@ h1{
   var ol=document.getElementById("lista");
   N.forEach(function(s){var li=document.createElement("li");li.textContent=s;ol.appendChild(li)});
 })();
+        // Esperar a que termine la animación de las letras y luego mostrar el contenido
+        setTimeout(() => {
+            const loadingScreen = document.getElementById('loading-screen');
+            const mainContent = document.getElementById('main-content');
+            
+            // Ocultar pantalla de carga
+            loadingScreen.classList.add('fade-out');
+            
+            // Mostrar contenido principal
+            setTimeout(() => {
+                mainContent.classList.add('show');
+            }, 300);
+        }, 2500);
+
+        // Menú desplegable
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const menuItem = this.parentElement;
+                    const dropdown = menuItem.querySelector('.dropdown');
+                    
+                    // Toggle del dropdown
+                    menuItem.classList.toggle('active');
+                    dropdown.classList.toggle('active');
+                });
+            });
+
+            // Cerrar dropdown al hacer clic fuera
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.nav_item.has-dropdown')) {
+                    document.querySelectorAll('.nav_item.has-dropdown.active').forEach(item => {
+                        item.classList.remove('active');
+                        item.querySelector('.dropdown').classList.remove('active');
+                    });
+                }
+            });
+        });
         // Esperar a que termine la animación de las letras y luego mostrar el contenido
         setTimeout(() => {
             const loadingScreen = document.getElementById('loading-screen');

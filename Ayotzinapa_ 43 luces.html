@@ -1,0 +1,270 @@
+---
+permalink: /mermorial-digital-43-luces/
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ayotzinapa: 43 luces</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/paginaprincipalestilo.css">
+<link rel="icon" href="/Imagenes/logo-cuadrado.jpeg" sizes="any">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Memorial digital: Ayotzinapa-43-luces">
+<meta property="og:description" content="Momorial por los 43 estudiantes de Ayotzinapa desaparecidos.">
+<meta property="og:image" content="https://revistafosforo.org/Imagenes/memorialm.png">
+<meta property="og:url" content="https://revistafosforo.org/mermorial-digital-43-luces/">
+</head>
+<body>
+<style>
+:root{
+  --bg:#e4eee8;--fg:#10302b;--muted:#4b6b63;
+  --turtle:#5b9b85;--shell:#1f4a44;--guide:#e4eee8;--candle:#d9822b;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#7A0004;--fg:#e9efe9;--muted:#9db5ad;
+    --turtle:#4d8f7a;--shell:#173a38;--guide:#e9efe9;--candle:#f2b660;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0b1f24;--fg:#e9efe9;--muted:#9db5ad;
+  --turtle:#4d8f7a;--shell:#173a38;--guide:#e9efe9;--candle:#f2b660;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{
+  margin:0;background:var(--bg);color:var(--fg);
+  font-family:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  line-height:1.6;
+}
+main{
+  max-width:640px;margin:0 auto;padding:2.5rem 1.25rem 4rem;
+  display:flex;flex-direction:column;align-items:center;text-align:center;
+}
+.tortuga{width:min(92vw,460px);height:auto;display:block;animation:flota 9s ease-in-out infinite}
+.halo{fill:var(--candle);opacity:.14;animation:tiembla 3.2s ease-in-out infinite;animation-delay:var(--d,0s)}
+.luz{fill:var(--candle)}
+.punto{cursor:pointer;outline:none}
+.punto .halo{pointer-events:none}
+.punto:hover .halo{opacity:.4}
+.punto:focus-visible .luz,.punto.sel .luz{stroke:var(--fg);stroke-width:2.5}
+.punto.sel .halo{animation:none;opacity:.55}
+.panel{min-height:5.5rem;display:flex;align-items:center;justify-content:center;margin:.5rem 0 0}
+.nombre{
+  margin:0;font-family:"Young Serif",Georgia,"Times New Roman",serif;
+  font-size:clamp(1.6rem,6.5vw,2.4rem);line-height:1.15;max-width:18ch;
+}
+.nombre.pista{font-family:inherit;font-size:1rem;color:var(--muted);max-width:none}
+.lista{margin:0 0 2rem;width:100%;max-width:34rem}
+.lista summary{cursor:pointer;color:var(--muted);padding:.4rem}
+.lista ol{text-align:left;columns:2 14rem;column-gap:2rem;margin:1rem 0 0;padding-left:2rem}
+.lista li{padding:.15rem 0;break-inside:avoid}
+.nota{margin:1.25rem 0 0;max-width:34rem;color:var(--muted);font-size:.9rem}
+@keyframes tiembla{0%,100%{opacity:.12}50%{opacity:.34}}
+@keyframes flota{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+h1{
+  font-family:"Young Serif",Georgia,"Times New Roman",serif;font-weight:400;
+  font-size:clamp(2.6rem,10vw,4.8rem);line-height:1.05;margin:1.5rem 0 .5rem;letter-spacing:-.01em;
+}
+.origen{margin:0 0 2rem;color:var(--muted);font-size:1.05rem}
+.hechos{margin:0 0 2.25rem;max-width:34rem;font-size:1.05rem}
+.lema{
+  font-family:"Young Serif",Georgia,"Times New Roman",serif;
+  font-size:clamp(1.5rem,5.5vw,2.2rem);line-height:1.25;margin:0 0 2rem;max-width:22ch;
+}
+.pie{margin:0;color:var(--muted);font-size:.95rem}
+@media (prefers-reduced-motion:reduce){
+  .tortuga,.halo{animation:none}
+  .halo{opacity:.22}
+}
+</style>
+</head>
+<body>
+       <header>  
+        <div class="container">
+            <figure class="nav_figure">
+            <a href="/index.html" class="logo">
+                <img src="/Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
+            </a>
+            </figure>
+
+            <label class="nav_toggel">
+                <input type="checkbox" id="menu-input" class="nav_input">
+            </label>
+        </div>
+        <ul class="nav_list">
+            <li class="nav_item">
+                <a href="/index.html" class="nav_link2">Inicio</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link1 dropdown-toggle">
+                    Acerca de la revista <span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="/convocaría-permanente/" class="dropdown-link">Convocatoria permanente</a></li>
+                    <li><a href="/secciones/" class="dropdown-link">Secciones de la revista</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="/catalogo/" class="nav_link2">Catalogo</a>
+            </li>
+            <li class="nav_item">
+                <a href="/galería/" class="nav_link2">Galeria de imagenes</a>
+            </li>
+            <li class="nav_item">
+                <a href="/videos/" class="nav_link2">Videos</a>
+            </li>
+            <li class="nav_item">
+                <a href="/convocatorias/" class="nav_link3">Convocatorias</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link3 dropdown-toggle">
+                    Publicar<span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="/bases/" class="dropdown-link"> Bases</a></li>
+                </ul>
+                <ul class="dropdown">
+                    <li><a href="/lineamientos-para-el-envío-de-colaboraciones/" class="dropdown-link"> Lineamientos para el envio de colaboraciones</a></li>
+                </ul>
+            </li>
+            <!--<li class="nav_item">
+                <a href="#" class="nav_link3">Donaciones</a>
+            </li>-->
+            <li class="nav_item redes-sociales-menu">
+                <a target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/revista_fosforo_/" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a target="_blank" class="social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com/@RevistaElFosforo" target="_blank" class="social-link">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+<main>
+  <svg class="tortuga" viewBox="0 0 500 550" role="img"
+       aria-label="Una tortuga grande cuyo caparazón lleva 43 luces encendidas, una por cada estudiante desaparecido">
+    <g fill="var(--turtle)">
+      <ellipse cx="250" cy="88" rx="30" ry="36"/>
+      <ellipse cx="250" cy="120" rx="22" ry="22"/>
+      <ellipse cx="100" cy="215" rx="70" ry="24" transform="rotate(-32 100 215)"/>
+      <ellipse cx="400" cy="215" rx="70" ry="24" transform="rotate(32 400 215)"/>
+      <ellipse cx="135" cy="440" rx="44" ry="17" transform="rotate(-22 135 440)"/>
+      <ellipse cx="365" cy="440" rx="44" ry="17" transform="rotate(22 365 440)"/>
+      <path d="M239 468 Q250 535 261 468Z"/>
+      <ellipse cx="250" cy="295" rx="150" ry="182"/>
+    </g>
+    <circle cx="238" cy="80" r="3.5" fill="var(--bg)"/>
+    <circle cx="262" cy="80" r="3.5" fill="var(--bg)"/>
+    <ellipse cx="250" cy="295" rx="136" ry="168" fill="var(--shell)"/>
+    <g fill="none" stroke="var(--guide)" stroke-opacity=".12">
+      <ellipse cx="250" cy="295" rx="70" ry="87"/>
+      <ellipse cx="250" cy="295" rx="120" ry="150" stroke-opacity="0"/>
+    </g>
+    <g id="luces"></g>
+  </svg>
+
+  <div class="panel" aria-live="polite"><p id="nombre" class="nombre pista">Toca una luz para leer un nombre.</p></div>
+
+  <h1>Ayotzinapa</h1>
+  <p class="origen">En náhuatl, el nombre suele interpretarse como "río de las tortuguitas".</p>
+  <p class="hechos">La noche del 26 de septiembre de 2014, 43 estudiantes de la Escuela Normal Rural Raúl Isidro Burgos fueron desaparecidos en Iguala, Guerrero. Cada luz del caparazón es uno de ellos.</p>
+  <p class="lema">¡Vivos se los llevaron, vivos los queremos!</p>
+  <details class="lista"><summary>Ver los 43 nombres</summary><ol id="lista"></ol></details>
+  <p class="pie">Verdad y justicia para los 43.</p>
+  <p class="nota">Los restos de tres de ellos (Alexander Mora Venancio, Christian Alfonso Rodríguez Telumbre y Jhosivani Guerrero de la Cruz) han sido identificados; sus familias siguen exigiendo verdad y justicia. Lista según el Mecanismo Especial de Seguimiento de la CIDH; la ortografía de algunos apellidos varía entre fuentes.</p>
+</main>
+<script>
+(function(){
+  var NS="http://www.w3.org/2000/svg",g=document.getElementById("luces");
+  var anillos=[[1,0],[6,.3],[12,.58],[24,.86]];
+  var N=["Adán Abraján de la Cruz","Alexander Mora Venancio","Carlos Lorenzo Hernández Muñoz","Christian Alfonso Rodríguez Telumbre","Israel Jacinto Lugardo","Jesús Jovany Rodríguez Tlatempa","Jorge Aníbal Cruz Mendoza","Jorge Antonio Tizapa Legideño","José Ángel Navarrete González","José Eduardo Bartolo Tlatempa","Julio César López Patolzin","Luis Ángel Francisco Arzola","Magdaleno Rubén Lauro Villegas","Martín Getsemany Sánchez García","Abelardo Vázquez Peniten","Antonio Santana Maestro","Bernardo Flores Alcaraz","César Manuel González Hernández","Christian Tomás Colón Garnica","Cutberto Ortiz Ramos","Dorian González Parral","Emiliano Alen Gaspar de la Cruz","Everardo Rodríguez Bello","Giovanni Galindes Guerrero","Jonás Trujillo González","Jorge Álvarez Nava","Jorge Luis González Parral","Jhosivani Guerrero de la Cruz","Leonel Castro Abarca","Luis Ángel Abarca Carrillo","Marcial Pablo Baranda","Marco Antonio Gómez Molina","Miguel Ángel Hernández Martínez","Miguel Ángel Mendoza Zacarías","Saúl Bruno García","Abel García Hernández","Benjamín Ascencio Bautista","Carlos Iván Ramírez Villarreal","Felipe Arnulfo Rosas Rosas","Israel Caballero Sánchez","José Ángel Campos Cantor","José Luis Luna Torres","Mauricio Ortega Valerio"];
+  var n=0,sel=null,nombre=document.getElementById("nombre");
+  anillos.forEach(function(a,ri){
+    var c=a[0],s=a[1];
+    for(var i=0;i<c;i++){
+      var ang=c===1?0:2*Math.PI*i/c-Math.PI/2+(ri%2?Math.PI/c:0);
+      var x=250+120*s*Math.cos(ang),y=295+150*s*Math.sin(ang);
+      var h=document.createElementNS(NS,"circle");
+      h.setAttribute("class","halo");h.setAttribute("cx",x.toFixed(1));h.setAttribute("cy",y.toFixed(1));h.setAttribute("r","11");
+      h.setAttribute("style","--d:-"+(Math.random()*3.2).toFixed(2)+"s");
+      var d=document.createElementNS(NS,"circle");
+      d.setAttribute("class","luz");d.setAttribute("cx",x.toFixed(1));d.setAttribute("cy",y.toFixed(1));d.setAttribute("r","5");
+      var t=document.createElementNS(NS,"circle");
+      t.setAttribute("cx",x.toFixed(1));t.setAttribute("cy",y.toFixed(1));t.setAttribute("r","14");t.setAttribute("fill","transparent");
+      var p=document.createElementNS(NS,"g");
+      p.setAttribute("class","punto");p.setAttribute("tabindex","0");p.setAttribute("role","button");
+      p.appendChild(h);p.appendChild(d);p.appendChild(t);g.appendChild(p);
+      (function(k,p){
+        p.setAttribute("aria-label","Luz "+(k+1)+" de 43: ver nombre");
+        p.addEventListener("click",function(){elegir(k,p)});
+        p.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();elegir(k,p)}});
+      })(n++,p);
+    }
+  });
+  function elegir(k,p){
+    if(sel)sel.classList.remove("sel");
+    sel=p;p.classList.add("sel");
+    nombre.textContent=N[k];nombre.className="nombre";
+  }
+  var ol=document.getElementById("lista");
+  N.forEach(function(s){var li=document.createElement("li");li.textContent=s;ol.appendChild(li)});
+})();
+        // Esperar a que termine la animación de las letras y luego mostrar el contenido
+        setTimeout(() => {
+            const loadingScreen = document.getElementById('loading-screen');
+            const mainContent = document.getElementById('main-content');
+            
+            // Ocultar pantalla de carga
+            loadingScreen.classList.add('fade-out');
+            
+            // Mostrar contenido principal
+            setTimeout(() => {
+                mainContent.classList.add('show');
+            }, 300);
+        }, 2500);
+
+        // Menú desplegable
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const menuItem = this.parentElement;
+                    const dropdown = menuItem.querySelector('.dropdown');
+                    
+                    // Toggle del dropdown
+                    menuItem.classList.toggle('active');
+                    dropdown.classList.toggle('active');
+                });
+            });
+
+            // Cerrar dropdown al hacer clic fuera
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.nav_item.has-dropdown')) {
+                    document.querySelectorAll('.nav_item.has-dropdown.active').forEach(item => {
+                        item.classList.remove('active');
+                        item.querySelector('.dropdown').classList.remove('active');
+                    });
+                }
+            });
+        });
+</script>
+</body>
+</html>

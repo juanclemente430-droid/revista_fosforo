@@ -101,7 +101,7 @@ p{
 
 
 .slide-1 {
-    background-image: url(./Imagenes/prm.jpeg);
+    background-image: url(./Imagenes/memorialm.png);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -1307,7 +1307,7 @@ header .container:has(.nav_input:checked){
 
     /* Quitamos el fondo directo en desktop */
     .slide-1 {
-        background-image: url(Imagenes/pr2.png);
+        background-image: url(Imagenes/memorial.png);
         background-position: center center;
     }
 
@@ -1323,12 +1323,7 @@ header .container:has(.nav_input:checked){
         object-fit: contain;
     }
 
-    /* Restauramos el link a su estado normal */
-    .slide-1 .slide-content a {
-        position: relative;
-        inset: unset;
-        display: inline-block;
-    }
+
 
     /*Archivos (version escritorio)*/
     #apartados .Acercade{
